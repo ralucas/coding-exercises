@@ -6,9 +6,13 @@ Coding Exercises for learning
 
 1. Letter Count
 	* Coderbyte exercise
+	* Uses IIFE Module Pattern
+	* Jasmine Tests included
 
 1. Sum Square Difference
 	* Project Euler #6 - sum square difference
+	* Using Object Module Pattern for functions
+	
 	```
 	The sum of the squares of the first ten natural numbers is,
 	12 + 22 + ... + 102 = 385
