@@ -44,3 +44,9 @@ Coding Exercises
 	>2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 	>What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
+1. Mean Mode
+	* Coderbyte challenge
+	* Used Revealing module pattern IIFE
+
+	>Using the JavaScript language, have the function MeanMode(arr) take the array of numbers stored in arr and	   >return 1 if the mode equals the mean, 0 if they don't equal each other (ie. [5, 3, 3, 3, 1] should return 	      >1 because the mode (3) equals the mean (3)). The array will not be empty, will only contain positive 
+        >integers, and will not contain more than one mode.
