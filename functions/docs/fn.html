@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>fn.js</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="docco.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>fn.js</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              <h2 id="creates-a-multiplication-table">Creates a multiplication table</h2>
+
+            </div>
+            
+        </li>
+        
+        
+        <li id="section-2">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-2">&#182;</a>
+              </div>
+              <p>Can run in console by running:</p>
+<pre><code>var logger = multiplicationTable();
+console.log(logger);
+</code></pre>
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="keyword">var</span> multiplicationTable = <span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+    <span class="keyword">var</span> line = <span class="string">''</span>;
+    <span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">1</span>; i &lt; <span class="number">10</span>; i++) {
+        <span class="keyword">for</span>(<span class="keyword">var</span> j = <span class="number">1</span>; j &lt; <span class="number">10</span>; j++) {
+            line += (i * j) + <span class="string">' '</span>;
+        }
+        line += <span class="string">'\n'</span>;
+    }
+    <span class="keyword">return</span> line;
+};</pre></div></div>
+            
+        </li>
+        
+    </ul>
+  </div>
+</body>
+</html>
