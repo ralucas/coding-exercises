@@ -22,8 +22,8 @@ var multiplicationTable = function() {
 //
 // Example:
 // ```
-// myArray = [ "foo", "foo@bar.com", "bar", "bar@foo.com"];
-// arrayToObj(myArray)
+// var myArray = [ "foo", "foo@bar.com", "bar", "bar@foo.com"];
+// arrayToObj(myArray);
 // //outputs {foo: "foo@bar.com", bar: "bar@foo.com"};
 // ```
 var arrayToObj = function(arr) {
@@ -32,4 +32,22 @@ var arrayToObj = function(arr) {
         obj[arr[i]] = arr[i+1];
     }
     return obj;
+};
+
+// Checks keys for a specific singular search string and outputs value
+// -------------------------------------------------------------------
+// Example:
+// ```
+// var myObj = {foo: "foo@bar.com", barx: "bar@foo.com"};
+// checkKeys(myObj, 'x');
+// //outputs ["bar@foo.com"];
+// ```
+var checkKeys = function(obj, value) {
+    var output = [];
+    for(var key in obj) {
+        if(key.split('').indexOf(value) !== -1) {
+            output.push(obj[key]);
+        }
+    }
+    return output;
 };
