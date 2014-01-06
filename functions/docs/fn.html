@@ -59,6 +59,44 @@ console.log(logger);
             
         </li>
         
+        
+        <li id="section-3">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-3">&#182;</a>
+              </div>
+              <h2 id="converts-array-of-keys-and-values-to-object">Converts array of keys and values to object</h2>
+
+            </div>
+            
+        </li>
+        
+        
+        <li id="section-4">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-4">&#182;</a>
+              </div>
+              <p>Array input should be even</p>
+<p>Example:</p>
+<pre><code>myArray = [ &quot;foo&quot;, &quot;foo@bar.com&quot;, &quot;bar&quot;, &quot;bar@foo.com&quot;];
+arrayToObj(myArray)
+//outputs {foo: &quot;foo@bar.com&quot;, bar: &quot;bar@foo.com&quot;};
+</code></pre>
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="keyword">var</span> arrayToObj = <span class="function"><span class="keyword">function</span><span class="params">(arr)</span> {</span>
+    <span class="keyword">var</span> obj = {};
+    <span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; arr.length; i += <span class="number">2</span>) {
+        obj[arr[i]] = arr[i+<span class="number">1</span>];
+    }
+    <span class="keyword">return</span> obj;
+};</pre></div></div>
+            
+        </li>
+        
     </ul>
   </div>
 </body>
