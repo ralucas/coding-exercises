@@ -81,8 +81,8 @@ console.log(logger);
               </div>
               <p>Array input should be even</p>
 <p>Example:</p>
-<pre><code>myArray = [ &quot;foo&quot;, &quot;foo@bar.com&quot;, &quot;bar&quot;, &quot;bar@foo.com&quot;];
-arrayToObj(myArray)
+<pre><code>var myArray = [ &quot;foo&quot;, &quot;foo@bar.com&quot;, &quot;bar&quot;, &quot;bar@foo.com&quot;];
+arrayToObj(myArray);
 //outputs {foo: &quot;foo@bar.com&quot;, bar: &quot;bar@foo.com&quot;};
 </code></pre>
             </div>
@@ -93,6 +93,45 @@ arrayToObj(myArray)
         obj[arr[i]] = arr[i+<span class="number">1</span>];
     }
     <span class="keyword">return</span> obj;
+};</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-5">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-5">&#182;</a>
+              </div>
+              <h2 id="checks-keys-for-a-specific-singular-search-string-and-outputs-value">Checks keys for a specific singular search string and outputs value</h2>
+
+            </div>
+            
+        </li>
+        
+        
+        <li id="section-6">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-6">&#182;</a>
+              </div>
+              <p>Example:</p>
+<pre><code>var myObj = {foo: &quot;foo@bar.com&quot;, barx: &quot;bar@foo.com&quot;};
+checkKeys(myObj, &#39;x&#39;);
+//outputs [&quot;bar@foo.com&quot;];
+</code></pre>
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="keyword">var</span> checkKeys = <span class="function"><span class="keyword">function</span><span class="params">(obj, value)</span> {</span>
+    <span class="keyword">var</span> output = [];
+    <span class="keyword">for</span>(<span class="keyword">var</span> key <span class="keyword">in</span> obj) {
+        <span class="keyword">if</span>(key.split(<span class="string">''</span>).indexOf(value) !== -<span class="number">1</span>) {
+            output.push(obj[key]);
+        }
+    }
+    <span class="keyword">return</span> output;
 };</pre></div></div>
             
         </li>
