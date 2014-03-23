@@ -1,20 +1,23 @@
 var http = require('http'),
     path = require('path'),
-    Q = require('q');
+    express = require('express'),
+    Q = require('q'),
+    app = express();
 
 // sets up hosts
 var localhost = '127.0.0.1',
-    port = process.env.PORT || 3000;
+    port = process.env.PORT || 3011,
+    server = http.createServer(app);
 
-var defer = Q.defer();
+var deferred = Q.defer();
+setTimeout(function(){
+    deferred.resolve();
+    deferred.promise.then(function() {
+        console.log('resolved');
+    });
+}, 3000);
 
-
-// sets up server
-var server = http.createServer(function(req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Hello');
-});
-
-server.listen(port, localhost, function(){
+// listens to server
+server.listen(port, function() {
   console.log('Server listening on port ' + port);
 });
