@@ -1,0 +1,179 @@
+<html>
+<head>
+<script>
+
+/*
+Here's a small problem that a client once asked us to solve as part of a larger project. The client has an existing web-based 
+system for delivering a test containing multiple choice questions to a learner (the relevant parts of which are included on this page).
+The client asked us to modify this code so that the test questions are delivered in a random order every time a learner attempts 
+the test. Furthermore, the order in which the answers to the questions are presented should also be randomized.
+
+The existing framework for creating and displaying a test has been provided for you below. Your task is to comprehend the client's 
+code and data structure then implement the RandomizeTest function to perform the randomization of the question and answer order.
+Please explain your work and thought process.
+
+Some background on the project from the client that may affect your solution:
+
+-There are over 600 of these tests deployed to hundreds of thousands of users
+-There are never more then 20 questions or so per test, each with no more than 6 answers but the code should be able to handle an
+ arbitrary number or both questions and answers
+-This code is maintained by several developers in different organizations
+-The code is only required to work in all modern browsers
+
+When submitting your response, please rename this file to include your name.
+
+If you have any questions, please do not hesitate to ask.
+*/
+
+
+/***************************************************************/
+//***Your code to randomize questions and answers goes here***//
+/**************************************************************/
+
+/*
+RandomizeTest accepts and returns a Test object. The questions in the returned object should be in a random order.
+The order of the choices within each question should also be randomized.
+*/
+function RandomizeTest(tstObject){
+	for (var i in tstObject) {
+		if (tstObject.hasOwnProperty(i)) {
+			tstObject[i].forEach(function(item, idx) {
+				
+			});
+		}
+	}
+	
+	
+	return tstObject;
+}
+
+
+/**********************************************************/
+//***End randomization code section***//
+/**********************************************************/
+
+
+//definition of the test object
+function Test(aryQuestions, aryChoices, aryAnswers){
+	this.questions = aryQuestions;
+	this.choices = aryChoices;
+	this.answers = aryAnswers;
+}
+
+
+
+//displays the sample test in the browser with the correct answer highlighted
+function WriteTest() {
+
+	var tst = CreateSampleTest();
+	
+	tst = RandomizeTest(tst);
+	
+	document.write("<table border=0 cellspacing=3 cellpadding=3><form name=test id=test>");
+	
+	for (i=0; i < tst.questions.length; i++) {
+	
+		document.write("<tr><td valign=top>&nbsp;</td>")
+
+		document.write("<td><p>" + (i+1) + ".&nbsp;" + tst.questions[i]);
+		
+		for (j=0; j < tst.choices[i].length; j++) {
+			
+			var correctcount = 0;
+			var setblue = "";
+			
+			for (k=0; k<tst.answers[i].length; k++) {
+				if (tst.answers[i][k] == 1) {
+					correctcount++;
+				}
+			}
+			
+			if (tst.answers[i][j] == 1) {
+				setblue="class=blue"
+			}
+			
+			if (correctcount == 1) {
+				document.write("<br><input type=radio name=check"+i+" value="+j+" onclick='return false;'>");
+				document.write("<span "+setblue+">"+tst.choices[i][j]+"</span>");
+			} 
+			
+			else {
+				document.write("<br><input type=checkbox name=check"+i+" value="+j+" onclick='return false;'>");
+				document.write("<span "+setblue+">"+tst.choices[i][j]+"</span>");
+			}
+		}
+		
+		document.write("</td></tr><tr><td colspan=2><br></td></tr>");
+	}
+	document.write('</form></table>');
+}
+
+
+
+function CreateSampleTest(){
+
+	var questions = [
+		"What can you find in Rustici Software's office?",
+		"All of Rustici Software employees are expected to work no more than ____ hours per week.",
+		"The end users of Rustici Software's products number in the _________",
+		"Rustici Software is a (choose all that apply):",
+		"Tim likes to wear:"
+	];
+
+	var choices = [
+		[
+			"Dart Board",
+			"Ping Pong Table",
+			"Cubicles",
+			"Laptops with dual monitors",
+			"TPS reports, ummm yeah"
+		],
+		[
+			"80",
+			"40",
+			"50",
+			"60"
+		],
+		[
+			"Tens",
+			"Hundreds",
+			"Thousands",
+			"Millions",
+			"Billions"
+		],
+		[
+			"Great place to work",
+			"Respected leader in its field",
+			"Place where people don't matter, just results"
+		],
+		[
+			"Capri pants",
+			"Goth attire",
+			"Sport coat",
+			"T-shirt and shorts"
+		]
+	];
+
+	var answers = [
+		[1,1,0,1,0],
+		[0,1,0,0],
+		[0,0,0,1,0],
+		[1,1,0],
+		[0,0,0,1,0]
+	];	
+	
+	return new Test(questions, choices, answers);
+}
+
+
+</script>
+<style type="text/css">
+.blue {font-size : 14px; font-family : arial, helvetica, sans-serif; color : #336897; font-weight:bold;}
+</style>
+</head>
+<body>
+<script>
+WriteTest();
+</script>
+</body>
+</html>
