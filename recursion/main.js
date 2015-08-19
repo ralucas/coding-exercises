@@ -6,7 +6,9 @@ var factorial = function(num) {
 };
 
 //2. Write a JavaScript program to find the greatest common divisor (gcd) of two positive numbers. Go to the editor
-
+var gcd = function(a, b) {
+  
+};
 
 // 3. Write a JavaScript program to get the integers in range (x, y). Go to the editor
 // Example : range(2, 9)
@@ -19,6 +21,10 @@ var range = function(a, b) {
 // 4. Write a JavaScript program to compute the sum of an array of integers. Go to the editor
 // Example : var array = [1, 2, 3, 4, 5, 6]
 // Expected Output : 21 
+var reduce = function(arr) {
+  if (!arr[1]) return arr[0];
+  return reduce(arr[arr.length - 1]);
+};
 
 // 5. Write a JavaScript program to compute the exponent of a number. Go to the editor
 // Note : The exponent of a number says how many times the base number is used as a factor.

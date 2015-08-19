@@ -1,0 +1,2102 @@
+.
+├── README.md
+├── arrayCheck
+│   ├── README.md
+│   ├── SpecRunner.html
+│   ├── index.html
+│   ├── lib
+│   │   └── jasmine-1.3.0
+│   │       ├── MIT.LICENSE
+│   │       ├── jasmine-html.js
+│   │       ├── jasmine.css
+│   │       └── jasmine.js
+│   ├── main.js
+│   └── spec.js
+├── combo
+│   ├── README.md
+│   ├── combo.js
+│   └── index.html
+├── deferreds
+│   ├── index.html
+│   ├── main.js
+│   ├── test
+│   │   ├── SpecRunner.html
+│   │   ├── lib
+│   │   │   └── jasmine-1.3.0
+│   │   │       ├── MIT.LICENSE
+│   │   │       ├── jasmine-html.js
+│   │   │       ├── jasmine.css
+│   │   │       └── jasmine.js
+│   │   └── spec.js
+│   └── vendor
+│       └── jquery-1.11.0.min.js
+├── detecting-cycles
+│   ├── README.md
+│   └── main.js
+├── evenDivider
+│   └── main.js
+├── exercises
+│   ├── README.md
+│   ├── async
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   └── test.js
+│   ├── curry
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   └── test.js
+│   ├── flatten-thunk
+│   │   ├── README.md
+│   │   ├── package.json
+│   │   └── test.js
+│   ├── jasmine-async
+│   │   ├── README.md
+│   │   ├── package.json
+│   │   └── test.js
+│   ├── memoize
+│   │   ├── README.md
+│   │   ├── package.json
+│   │   └── test.js
+│   ├── middleware
+│   │   ├── README.md
+│   │   ├── package.json
+│   │   └── test.js
+│   ├── node_modules
+│   │   └── mocha
+│   │       ├── LICENSE
+│   │       ├── README.md
+│   │       ├── bin
+│   │       │   ├── _mocha
+│   │       │   ├── mocha
+│   │       │   └── options.js
+│   │       ├── images
+│   │       │   ├── error.png
+│   │       │   └── ok.png
+│   │       ├── index.js
+│   │       ├── lib
+│   │       │   ├── browser
+│   │       │   │   ├── debug.js
+│   │       │   │   ├── escape-string-regexp.js
+│   │       │   │   ├── events.js
+│   │       │   │   ├── fs.js
+│   │       │   │   ├── glob.js
+│   │       │   │   ├── path.js
+│   │       │   │   ├── progress.js
+│   │       │   │   └── tty.js
+│   │       │   ├── context.js
+│   │       │   ├── hook.js
+│   │       │   ├── interfaces
+│   │       │   │   ├── bdd.js
+│   │       │   │   ├── common.js
+│   │       │   │   ├── exports.js
+│   │       │   │   ├── index.js
+│   │       │   │   ├── qunit.js
+│   │       │   │   └── tdd.js
+│   │       │   ├── mocha.js
+│   │       │   ├── ms.js
+│   │       │   ├── pending.js
+│   │       │   ├── reporters
+│   │       │   │   ├── base.js
+│   │       │   │   ├── doc.js
+│   │       │   │   ├── dot.js
+│   │       │   │   ├── html-cov.js
+│   │       │   │   ├── html.js
+│   │       │   │   ├── index.js
+│   │       │   │   ├── json-cov.js
+│   │       │   │   ├── json-stream.js
+│   │       │   │   ├── json.js
+│   │       │   │   ├── landing.js
+│   │       │   │   ├── list.js
+│   │       │   │   ├── markdown.js
+│   │       │   │   ├── min.js
+│   │       │   │   ├── nyan.js
+│   │       │   │   ├── progress.js
+│   │       │   │   ├── spec.js
+│   │       │   │   ├── tap.js
+│   │       │   │   ├── templates
+│   │       │   │   │   ├── coverage.jade
+│   │       │   │   │   ├── menu.jade
+│   │       │   │   │   ├── script.html
+│   │       │   │   │   └── style.html
+│   │       │   │   └── xunit.js
+│   │       │   ├── runnable.js
+│   │       │   ├── runner.js
+│   │       │   ├── suite.js
+│   │       │   ├── template.html
+│   │       │   ├── test.js
+│   │       │   └── utils.js
+│   │       ├── mocha.css
+│   │       ├── mocha.js
+│   │       ├── node_modules
+│   │       │   ├── commander
+│   │       │   │   ├── Readme.md
+│   │       │   │   ├── index.js
+│   │       │   │   └── package.json
+│   │       │   ├── debug
+│   │       │   │   ├── History.md
+│   │       │   │   ├── Makefile
+│   │       │   │   ├── Readme.md
+│   │       │   │   ├── browser.js
+│   │       │   │   ├── component.json
+│   │       │   │   ├── debug.js
+│   │       │   │   ├── node.js
+│   │       │   │   ├── node_modules
+│   │       │   │   │   └── ms
+│   │       │   │   │       ├── README.md
+│   │       │   │   │       ├── index.js
+│   │       │   │   │       └── package.json
+│   │       │   │   └── package.json
+│   │       │   ├── diff
+│   │       │   │   ├── README.md
+│   │       │   │   ├── diff.js
+│   │       │   │   └── package.json
+│   │       │   ├── escape-string-regexp
+│   │       │   │   ├── index.js
+│   │       │   │   ├── package.json
+│   │       │   │   └── readme.md
+│   │       │   ├── glob
+│   │       │   │   ├── LICENSE
+│   │       │   │   ├── README.md
+│   │       │   │   ├── examples
+│   │       │   │   │   ├── g.js
+│   │       │   │   │   └── usr-local.js
+│   │       │   │   ├── glob.js
+│   │       │   │   ├── node_modules
+│   │       │   │   │   ├── graceful-fs
+│   │       │   │   │   │   ├── LICENSE
+│   │       │   │   │   │   ├── README.md
+│   │       │   │   │   │   ├── graceful-fs.js
+│   │       │   │   │   │   ├── package.json
+│   │       │   │   │   │   ├── polyfills.js
+│   │       │   │   │   │   └── test
+│   │       │   │   │   │       ├── open.js
+│   │       │   │   │   │       └── readdir-sort.js
+│   │       │   │   │   ├── inherits
+│   │       │   │   │   │   ├── LICENSE
+│   │       │   │   │   │   ├── README.md
+│   │       │   │   │   │   ├── inherits.js
+│   │       │   │   │   │   ├── inherits_browser.js
+│   │       │   │   │   │   ├── package.json
+│   │       │   │   │   │   └── test.js
+│   │       │   │   │   └── minimatch
+│   │       │   │   │       ├── LICENSE
+│   │       │   │   │       ├── README.md
+│   │       │   │   │       ├── minimatch.js
+│   │       │   │   │       ├── node_modules
+│   │       │   │   │       │   ├── lru-cache
+│   │       │   │   │       │   │   ├── CONTRIBUTORS
+│   │       │   │   │       │   │   ├── LICENSE
+│   │       │   │   │       │   │   ├── README.md
+│   │       │   │   │       │   │   ├── lib
+│   │       │   │   │       │   │   │   └── lru-cache.js
+│   │       │   │   │       │   │   ├── package.json
+│   │       │   │   │       │   │   └── test
+│   │       │   │   │       │   │       ├── basic.js
+│   │       │   │   │       │   │       ├── foreach.js
+│   │       │   │   │       │   │       └── memory-leak.js
+│   │       │   │   │       │   └── sigmund
+│   │       │   │   │       │       ├── LICENSE
+│   │       │   │   │       │       ├── README.md
+│   │       │   │   │       │       ├── bench.js
+│   │       │   │   │       │       ├── package.json
+│   │       │   │   │       │       ├── sigmund.js
+│   │       │   │   │       │       └── test
+│   │       │   │   │       │           └── basic.js
+│   │       │   │   │       ├── package.json
+│   │       │   │   │       └── test
+│   │       │   │   │           ├── basic.js
+│   │       │   │   │           ├── brace-expand.js
+│   │       │   │   │           ├── caching.js
+│   │       │   │   │           ├── defaults.js
+│   │       │   │   │           └── extglob-ending-with-state-char.js
+│   │       │   │   ├── package.json
+│   │       │   │   └── test
+│   │       │   │       ├── 00-setup.js
+│   │       │   │       ├── bash-comparison.js
+│   │       │   │       ├── bash-results.json
+│   │       │   │       ├── cwd-test.js
+│   │       │   │       ├── globstar-match.js
+│   │       │   │       ├── mark.js
+│   │       │   │       ├── nocase-nomagic.js
+│   │       │   │       ├── pause-resume.js
+│   │       │   │       ├── root-nomount.js
+│   │       │   │       ├── root.js
+│   │       │   │       ├── stat.js
+│   │       │   │       └── zz-cleanup.js
+│   │       │   ├── growl
+│   │       │   │   ├── History.md
+│   │       │   │   ├── Readme.md
+│   │       │   │   ├── lib
+│   │       │   │   │   └── growl.js
+│   │       │   │   ├── package.json
+│   │       │   │   └── test.js
+│   │       │   ├── jade
+│   │       │   │   ├── LICENSE
+│   │       │   │   ├── bin
+│   │       │   │   │   └── jade
+│   │       │   │   ├── index.js
+│   │       │   │   ├── jade.js
+│   │       │   │   ├── jade.md
+│   │       │   │   ├── jade.min.js
+│   │       │   │   ├── lib
+│   │       │   │   │   ├── compiler.js
+│   │       │   │   │   ├── doctypes.js
+│   │       │   │   │   ├── filters.js
+│   │       │   │   │   ├── inline-tags.js
+│   │       │   │   │   ├── jade.js
+│   │       │   │   │   ├── lexer.js
+│   │       │   │   │   ├── nodes
+│   │       │   │   │   │   ├── attrs.js
+│   │       │   │   │   │   ├── block-comment.js
+│   │       │   │   │   │   ├── block.js
+│   │       │   │   │   │   ├── case.js
+│   │       │   │   │   │   ├── code.js
+│   │       │   │   │   │   ├── comment.js
+│   │       │   │   │   │   ├── doctype.js
+│   │       │   │   │   │   ├── each.js
+│   │       │   │   │   │   ├── filter.js
+│   │       │   │   │   │   ├── index.js
+│   │       │   │   │   │   ├── literal.js
+│   │       │   │   │   │   ├── mixin.js
+│   │       │   │   │   │   ├── node.js
+│   │       │   │   │   │   ├── tag.js
+│   │       │   │   │   │   └── text.js
+│   │       │   │   │   ├── parser.js
+│   │       │   │   │   ├── runtime.js
+│   │       │   │   │   ├── self-closing.js
+│   │       │   │   │   └── utils.js
+│   │       │   │   ├── node_modules
+│   │       │   │   │   ├── commander
+│   │       │   │   │   │   ├── History.md
+│   │       │   │   │   │   ├── Makefile
+│   │       │   │   │   │   ├── Readme.md
+│   │       │   │   │   │   ├── index.js
+│   │       │   │   │   │   ├── lib
+│   │       │   │   │   │   │   └── commander.js
+│   │       │   │   │   │   └── package.json
+│   │       │   │   │   └── mkdirp
+│   │       │   │   │       ├── LICENSE
+│   │       │   │   │       ├── README.markdown
+│   │       │   │   │       ├── examples
+│   │       │   │   │       │   ├── pow.js
+│   │       │   │   │       │   ├── pow.js.orig
+│   │       │   │   │       │   └── pow.js.rej
+│   │       │   │   │       ├── index.js
+│   │       │   │   │       ├── package.json
+│   │       │   │   │       └── test
+│   │       │   │   │           ├── chmod.js
+│   │       │   │   │           ├── clobber.js
+│   │       │   │   │           ├── mkdirp.js
+│   │       │   │   │           ├── perm.js
+│   │       │   │   │           ├── perm_sync.js
+│   │       │   │   │           ├── race.js
+│   │       │   │   │           ├── rel.js
+│   │       │   │   │           ├── sync.js
+│   │       │   │   │           ├── umask.js
+│   │       │   │   │           └── umask_sync.js
+│   │       │   │   ├── package.json
+│   │       │   │   ├── runtime.js
+│   │       │   │   ├── runtime.min.js
+│   │       │   │   ├── test.jade
+│   │       │   │   └── testing
+│   │       │   │       ├── head.jade
+│   │       │   │       ├── index.jade
+│   │       │   │       ├── index.js
+│   │       │   │       ├── layout.jade
+│   │       │   │       ├── user.jade
+│   │       │   │       └── user.js
+│   │       │   ├── mkdirp
+│   │       │   │   ├── LICENSE
+│   │       │   │   ├── bin
+│   │       │   │   │   ├── cmd.js
+│   │       │   │   │   └── usage.txt
+│   │       │   │   ├── examples
+│   │       │   │   │   └── pow.js
+│   │       │   │   ├── index.js
+│   │       │   │   ├── node_modules
+│   │       │   │   │   └── minimist
+│   │       │   │   │       ├── LICENSE
+│   │       │   │   │       ├── example
+│   │       │   │   │       │   └── parse.js
+│   │       │   │   │       ├── index.js
+│   │       │   │   │       ├── package.json
+│   │       │   │   │       ├── readme.markdown
+│   │       │   │   │       └── test
+│   │       │   │   │           ├── dash.js
+│   │       │   │   │           ├── default_bool.js
+│   │       │   │   │           ├── dotted.js
+│   │       │   │   │           ├── long.js
+│   │       │   │   │           ├── parse.js
+│   │       │   │   │           ├── parse_modified.js
+│   │       │   │   │           ├── short.js
+│   │       │   │   │           └── whitespace.js
+│   │       │   │   ├── package.json
+│   │       │   │   ├── readme.markdown
+│   │       │   │   └── test
+│   │       │   │       ├── chmod.js
+│   │       │   │       ├── clobber.js
+│   │       │   │       ├── mkdirp.js
+│   │       │   │       ├── opts_fs.js
+│   │       │   │       ├── opts_fs_sync.js
+│   │       │   │       ├── perm.js
+│   │       │   │       ├── perm_sync.js
+│   │       │   │       ├── race.js
+│   │       │   │       ├── rel.js
+│   │       │   │       ├── return.js
+│   │       │   │       ├── return_sync.js
+│   │       │   │       ├── root.js
+│   │       │   │       ├── sync.js
+│   │       │   │       ├── umask.js
+│   │       │   │       └── umask_sync.js
+│   │       │   └── supports-color
+│   │       │       ├── cli.js
+│   │       │       ├── index.js
+│   │       │       ├── license
+│   │       │       ├── package.json
+│   │       │       └── readme.md
+│   │       └── package.json
+│   ├── package.json
+│   ├── sort
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   └── test.js
+│   ├── throttle
+│   │   ├── README.md
+│   │   ├── package.json
+│   │   └── test.js
+│   └── throttle-promises
+│       ├── README.md
+│       ├── package.json
+│       └── test.js
+├── fib
+│   └── fib.js
+├── findThePrime
+│   └── prime.js
+├── functions
+│   ├── docs
+│   │   ├── docco.css
+│   │   ├── fn.html
+│   │   └── public
+│   │       ├── fonts
+│   │       │   ├── aller-bold.eot
+│   │       │   ├── aller-bold.ttf
+│   │       │   ├── aller-bold.woff
+│   │       │   ├── aller-light.eot
+│   │       │   ├── aller-light.ttf
+│   │       │   ├── aller-light.woff
+│   │       │   ├── novecento-bold.eot
+│   │       │   ├── novecento-bold.ttf
+│   │       │   └── novecento-bold.woff
+│   │       └── stylesheets
+│   │           └── normalize.css
+│   └── fn.js
+├── largestProduct
+│   ├── largo.js
+│   ├── npm-debug.log
+│   └── test
+│       ├── bower.json
+│       ├── bower_components
+│       │   └── jasmine
+│       │       ├── Contribute.markdown
+│       │       ├── Gemfile
+│       │       ├── MIT.LICENSE
+│       │       ├── README.markdown
+│       │       ├── Rakefile
+│       │       ├── Release.markdown
+│       │       ├── config.rb
+│       │       ├── images
+│       │       │   └── jasmine_favicon.png
+│       │       ├── jasmine-core.gemspec
+│       │       ├── jasmine_dev.thor
+│       │       ├── jsdoc-template
+│       │       │   ├── allclasses.tmpl
+│       │       │   ├── allfiles.tmpl
+│       │       │   ├── class.tmpl
+│       │       │   ├── index.tmpl
+│       │       │   ├── publish.js
+│       │       │   ├── static
+│       │       │   │   ├── default.css
+│       │       │   │   ├── header.html
+│       │       │   │   └── index.html
+│       │       │   └── symbol.tmpl
+│       │       ├── jshint
+│       │       │   ├── jshint.js
+│       │       │   └── run.js
+│       │       ├── lib
+│       │       │   ├── jasmine-core
+│       │       │   │   ├── example
+│       │       │   │   │   ├── SpecRunner.html
+│       │       │   │   │   ├── spec
+│       │       │   │   │   │   ├── PlayerSpec.js
+│       │       │   │   │   │   └── SpecHelper.js
+│       │       │   │   │   └── src
+│       │       │   │   │       ├── Player.js
+│       │       │   │   │       └── Song.js
+│       │       │   │   ├── jasmine-html.js
+│       │       │   │   ├── jasmine.css
+│       │       │   │   ├── jasmine.js
+│       │       │   │   ├── json2.js
+│       │       │   │   └── version.rb
+│       │       │   └── jasmine-core.rb
+│       │       ├── pages
+│       │       ├── spec
+│       │       │   ├── console
+│       │       │   │   └── ConsoleReporterSpec.js
+│       │       │   ├── core
+│       │       │   │   ├── BaseSpec.js
+│       │       │   │   ├── CustomMatchersSpec.js
+│       │       │   │   ├── EnvSpec.js
+│       │       │   │   ├── ExceptionsSpec.js
+│       │       │   │   ├── JsApiReporterSpec.js
+│       │       │   │   ├── MatchersSpec.js
+│       │       │   │   ├── MockClockSpec.js
+│       │       │   │   ├── MultiReporterSpec.js
+│       │       │   │   ├── NestedResultsSpec.js
+│       │       │   │   ├── PrettyPrintSpec.js
+│       │       │   │   ├── QueueSpec.js
+│       │       │   │   ├── ReporterSpec.js
+│       │       │   │   ├── RunnerSpec.js
+│       │       │   │   ├── SpecRunningSpec.js
+│       │       │   │   ├── SpecSpec.js
+│       │       │   │   ├── SpySpec.js
+│       │       │   │   ├── SuiteSpec.js
+│       │       │   │   ├── UtilSpec.js
+│       │       │   │   └── WaitsForBlockSpec.js
+│       │       │   ├── html
+│       │       │   │   ├── HTMLReporterSpec.js
+│       │       │   │   ├── MatchersHtmlSpec.js
+│       │       │   │   ├── PrettyPrintHtmlSpec.js
+│       │       │   │   └── TrivialReporterSpec.js
+│       │       │   ├── jasmine.yml
+│       │       │   ├── jasmine_self_test_spec.rb
+│       │       │   ├── node_suite.js
+│       │       │   ├── runner.html
+│       │       │   ├── spec_helper.rb
+│       │       │   ├── tasks
+│       │       │   │   ├── build_distribution_spec.rb
+│       │       │   │   ├── build_github_pages_spec.rb
+│       │       │   │   ├── build_standalone_distribution_spec.rb
+│       │       │   │   ├── build_standalone_runner_spec.rb
+│       │       │   │   ├── count_specs_spec.rb
+│       │       │   │   ├── execute_specs_spec.rb
+│       │       │   │   ├── jshint_spec.rb
+│       │       │   │   ├── release_spec.rb
+│       │       │   │   └── version_spec.rb
+│       │       │   └── templates
+│       │       │       ├── runner.html.erb
+│       │       │       └── script_tag.html.erb
+│       │       ├── src
+│       │       │   ├── console
+│       │       │   │   └── ConsoleReporter.js
+│       │       │   ├── core
+│       │       │   │   ├── Block.js
+│       │       │   │   ├── Env.js
+│       │       │   │   ├── JsApiReporter.js
+│       │       │   │   ├── Matchers.js
+│       │       │   │   ├── MultiReporter.js
+│       │       │   │   ├── NestedResults.js
+│       │       │   │   ├── PrettyPrinter.js
+│       │       │   │   ├── Queue.js
+│       │       │   │   ├── Reporter.js
+│       │       │   │   ├── Runner.js
+│       │       │   │   ├── Spec.js
+│       │       │   │   ├── Suite.js
+│       │       │   │   ├── WaitsBlock.js
+│       │       │   │   ├── WaitsForBlock.js
+│       │       │   │   ├── base.js
+│       │       │   │   ├── mock-timeout.js
+│       │       │   │   └── util.js
+│       │       │   ├── html
+│       │       │   │   ├── HtmlReporter.js
+│       │       │   │   ├── HtmlReporterHelpers.js
+│       │       │   │   ├── ReporterView.js
+│       │       │   │   ├── SpecView.js
+│       │       │   │   ├── SuiteView.js
+│       │       │   │   ├── TrivialReporter.js
+│       │       │   │   ├── _HTMLReporter.scss
+│       │       │   │   ├── _TrivialReporter.scss
+│       │       │   │   ├── jasmine.css
+│       │       │   │   └── jasmine.scss
+│       │       │   ├── templates
+│       │       │   │   ├── example_project_jasmine_tags.html.erb
+│       │       │   │   ├── version.js.erb
+│       │       │   │   └── version.rb.erb
+│       │       │   ├── version.js
+│       │       │   └── version.json
+│       │       └── tasks
+│       │           ├── docs.rb
+│       │           ├── jasmine_dev
+│       │           │   ├── base.rb
+│       │           │   ├── build_distribution.rb
+│       │           │   ├── build_github_pages.rb
+│       │           │   ├── build_standalone_distribution.rb
+│       │           │   ├── build_standalone_runner.rb
+│       │           │   ├── count_specs.rb
+│       │           │   ├── execute_specs.rb
+│       │           │   ├── js_hint.rb
+│       │           │   ├── release.rb
+│       │           │   ├── sources.rb
+│       │           │   └── version.rb
+│       │           └── jasmine_dev.rb
+│       ├── index.html
+│       └── spec
+│           └── test.js
+├── letterCount1
+│   ├── SpecRunner.html
+│   ├── index.html
+│   ├── lib
+│   │   └── jasmine-1.3.0
+│   │       ├── MIT.LICENSE
+│   │       ├── jasmine-html.js
+│   │       ├── jasmine.css
+│   │       └── jasmine.js
+│   ├── main.js
+│   └── spec.js
+├── levenshtein
+│   ├── README.md
+│   ├── SpecRunner.html
+│   ├── index.html
+│   ├── levenshtein.js
+│   ├── lib
+│   │   └── jasmine-1.3.0
+│   │       ├── MIT.LICENSE
+│   │       ├── jasmine-html.js
+│   │       ├── jasmine.css
+│   │       └── jasmine.js
+│   ├── main.js
+│   ├── sample.txt
+│   └── spec.js
+├── longest-lines
+│   ├── README.md
+│   └── main.js
+├── meanMode
+│   └── main.js
+├── npm-debug.log
+├── practice-promises
+│   └── program.js
+├── promise
+│   ├── node_modules
+│   │   ├── chai
+│   │   │   ├── CONTRIBUTING.md
+│   │   │   ├── History.md
+│   │   │   ├── README.md
+│   │   │   ├── ReleaseNotes.md
+│   │   │   ├── bower.json
+│   │   │   ├── chai.js
+│   │   │   ├── index.js
+│   │   │   ├── karma.conf.js
+│   │   │   ├── karma.sauce.js
+│   │   │   ├── lib
+│   │   │   │   ├── chai
+│   │   │   │   │   ├── assertion.js
+│   │   │   │   │   ├── core
+│   │   │   │   │   │   └── assertions.js
+│   │   │   │   │   ├── interface
+│   │   │   │   │   │   ├── assert.js
+│   │   │   │   │   │   ├── expect.js
+│   │   │   │   │   │   └── should.js
+│   │   │   │   │   └── utils
+│   │   │   │   │       ├── addChainableMethod.js
+│   │   │   │   │       ├── addMethod.js
+│   │   │   │   │       ├── addProperty.js
+│   │   │   │   │       ├── flag.js
+│   │   │   │   │       ├── getActual.js
+│   │   │   │   │       ├── getEnumerableProperties.js
+│   │   │   │   │       ├── getMessage.js
+│   │   │   │   │       ├── getName.js
+│   │   │   │   │       ├── getPathValue.js
+│   │   │   │   │       ├── getProperties.js
+│   │   │   │   │       ├── index.js
+│   │   │   │   │       ├── inspect.js
+│   │   │   │   │       ├── objDisplay.js
+│   │   │   │   │       ├── overwriteChainableMethod.js
+│   │   │   │   │       ├── overwriteMethod.js
+│   │   │   │   │       ├── overwriteProperty.js
+│   │   │   │   │       ├── test.js
+│   │   │   │   │       ├── transferFlags.js
+│   │   │   │   │       └── type.js
+│   │   │   │   └── chai.js
+│   │   │   ├── node_modules
+│   │   │   │   ├── assertion-error
+│   │   │   │   │   ├── History.md
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── package.json
+│   │   │   │   └── deep-eql
+│   │   │   │       ├── History.md
+│   │   │   │       ├── README.md
+│   │   │   │       ├── index.js
+│   │   │   │       ├── karma.conf.js
+│   │   │   │       ├── lib
+│   │   │   │       │   └── eql.js
+│   │   │   │       ├── node_modules
+│   │   │   │       │   └── type-detect
+│   │   │   │       │       ├── History.md
+│   │   │   │       │       ├── README.md
+│   │   │   │       │       ├── index.js
+│   │   │   │       │       ├── lib
+│   │   │   │       │       │   └── type.js
+│   │   │   │       │       └── package.json
+│   │   │   │       └── package.json
+│   │   │   ├── package.json
+│   │   │   └── sauce.browsers.js
+│   │   ├── express
+│   │   │   ├── History.md
+│   │   │   ├── LICENSE
+│   │   │   ├── Makefile
+│   │   │   ├── Readme.md
+│   │   │   ├── benchmarks
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── middleware.js
+│   │   │   │   └── run
+│   │   │   ├── bin
+│   │   │   │   └── express
+│   │   │   ├── index.js
+│   │   │   ├── lib
+│   │   │   │   ├── application.js
+│   │   │   │   ├── express.js
+│   │   │   │   ├── middleware.js
+│   │   │   │   ├── request.js
+│   │   │   │   ├── response.js
+│   │   │   │   ├── router
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── route.js
+│   │   │   │   ├── utils.js
+│   │   │   │   └── view.js
+│   │   │   ├── node_modules
+│   │   │   │   ├── buffer-crc32
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── package.json
+│   │   │   │   │   └── tests
+│   │   │   │   │       └── crc.test.js
+│   │   │   │   ├── commander
+│   │   │   │   │   ├── History.md
+│   │   │   │   │   ├── Readme.md
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── node_modules
+│   │   │   │   │   │   └── keypress
+│   │   │   │   │   │       ├── README.md
+│   │   │   │   │   │       ├── index.js
+│   │   │   │   │   │       ├── package.json
+│   │   │   │   │   │       └── test.js
+│   │   │   │   │   └── package.json
+│   │   │   │   ├── connect
+│   │   │   │   │   ├── LICENSE
+│   │   │   │   │   ├── Readme.md
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── lib
+│   │   │   │   │   │   ├── cache.js
+│   │   │   │   │   │   ├── connect.js
+│   │   │   │   │   │   ├── index.js
+│   │   │   │   │   │   ├── middleware
+│   │   │   │   │   │   │   ├── basicAuth.js
+│   │   │   │   │   │   │   ├── bodyParser.js
+│   │   │   │   │   │   │   ├── compress.js
+│   │   │   │   │   │   │   ├── cookieParser.js
+│   │   │   │   │   │   │   ├── cookieSession.js
+│   │   │   │   │   │   │   ├── csrf.js
+│   │   │   │   │   │   │   ├── directory.js
+│   │   │   │   │   │   │   ├── errorHandler.js
+│   │   │   │   │   │   │   ├── favicon.js
+│   │   │   │   │   │   │   ├── json.js
+│   │   │   │   │   │   │   ├── limit.js
+│   │   │   │   │   │   │   ├── logger.js
+│   │   │   │   │   │   │   ├── methodOverride.js
+│   │   │   │   │   │   │   ├── multipart.js
+│   │   │   │   │   │   │   ├── query.js
+│   │   │   │   │   │   │   ├── responseTime.js
+│   │   │   │   │   │   │   ├── session
+│   │   │   │   │   │   │   │   ├── cookie.js
+│   │   │   │   │   │   │   │   ├── memory.js
+│   │   │   │   │   │   │   │   ├── session.js
+│   │   │   │   │   │   │   │   └── store.js
+│   │   │   │   │   │   │   ├── session.js
+│   │   │   │   │   │   │   ├── static.js
+│   │   │   │   │   │   │   ├── staticCache.js
+│   │   │   │   │   │   │   ├── timeout.js
+│   │   │   │   │   │   │   ├── urlencoded.js
+│   │   │   │   │   │   │   └── vhost.js
+│   │   │   │   │   │   ├── patch.js
+│   │   │   │   │   │   ├── proto.js
+│   │   │   │   │   │   ├── public
+│   │   │   │   │   │   │   ├── directory.html
+│   │   │   │   │   │   │   ├── error.html
+│   │   │   │   │   │   │   ├── favicon.ico
+│   │   │   │   │   │   │   ├── icons
+│   │   │   │   │   │   │   │   ├── folder.png
+│   │   │   │   │   │   │   │   ├── page.png
+│   │   │   │   │   │   │   │   ├── page_add.png
+│   │   │   │   │   │   │   │   ├── page_attach.png
+│   │   │   │   │   │   │   │   ├── page_code.png
+│   │   │   │   │   │   │   │   ├── page_copy.png
+│   │   │   │   │   │   │   │   ├── page_delete.png
+│   │   │   │   │   │   │   │   ├── page_edit.png
+│   │   │   │   │   │   │   │   ├── page_error.png
+│   │   │   │   │   │   │   │   ├── page_excel.png
+│   │   │   │   │   │   │   │   ├── page_find.png
+│   │   │   │   │   │   │   │   ├── page_gear.png
+│   │   │   │   │   │   │   │   ├── page_go.png
+│   │   │   │   │   │   │   │   ├── page_green.png
+│   │   │   │   │   │   │   │   ├── page_key.png
+│   │   │   │   │   │   │   │   ├── page_lightning.png
+│   │   │   │   │   │   │   │   ├── page_link.png
+│   │   │   │   │   │   │   │   ├── page_paintbrush.png
+│   │   │   │   │   │   │   │   ├── page_paste.png
+│   │   │   │   │   │   │   │   ├── page_red.png
+│   │   │   │   │   │   │   │   ├── page_refresh.png
+│   │   │   │   │   │   │   │   ├── page_save.png
+│   │   │   │   │   │   │   │   ├── page_white.png
+│   │   │   │   │   │   │   │   ├── page_white_acrobat.png
+│   │   │   │   │   │   │   │   ├── page_white_actionscript.png
+│   │   │   │   │   │   │   │   ├── page_white_add.png
+│   │   │   │   │   │   │   │   ├── page_white_c.png
+│   │   │   │   │   │   │   │   ├── page_white_camera.png
+│   │   │   │   │   │   │   │   ├── page_white_cd.png
+│   │   │   │   │   │   │   │   ├── page_white_code.png
+│   │   │   │   │   │   │   │   ├── page_white_code_red.png
+│   │   │   │   │   │   │   │   ├── page_white_coldfusion.png
+│   │   │   │   │   │   │   │   ├── page_white_compressed.png
+│   │   │   │   │   │   │   │   ├── page_white_copy.png
+│   │   │   │   │   │   │   │   ├── page_white_cplusplus.png
+│   │   │   │   │   │   │   │   ├── page_white_csharp.png
+│   │   │   │   │   │   │   │   ├── page_white_cup.png
+│   │   │   │   │   │   │   │   ├── page_white_database.png
+│   │   │   │   │   │   │   │   ├── page_white_delete.png
+│   │   │   │   │   │   │   │   ├── page_white_dvd.png
+│   │   │   │   │   │   │   │   ├── page_white_edit.png
+│   │   │   │   │   │   │   │   ├── page_white_error.png
+│   │   │   │   │   │   │   │   ├── page_white_excel.png
+│   │   │   │   │   │   │   │   ├── page_white_find.png
+│   │   │   │   │   │   │   │   ├── page_white_flash.png
+│   │   │   │   │   │   │   │   ├── page_white_freehand.png
+│   │   │   │   │   │   │   │   ├── page_white_gear.png
+│   │   │   │   │   │   │   │   ├── page_white_get.png
+│   │   │   │   │   │   │   │   ├── page_white_go.png
+│   │   │   │   │   │   │   │   ├── page_white_h.png
+│   │   │   │   │   │   │   │   ├── page_white_horizontal.png
+│   │   │   │   │   │   │   │   ├── page_white_key.png
+│   │   │   │   │   │   │   │   ├── page_white_lightning.png
+│   │   │   │   │   │   │   │   ├── page_white_link.png
+│   │   │   │   │   │   │   │   ├── page_white_magnify.png
+│   │   │   │   │   │   │   │   ├── page_white_medal.png
+│   │   │   │   │   │   │   │   ├── page_white_office.png
+│   │   │   │   │   │   │   │   ├── page_white_paint.png
+│   │   │   │   │   │   │   │   ├── page_white_paintbrush.png
+│   │   │   │   │   │   │   │   ├── page_white_paste.png
+│   │   │   │   │   │   │   │   ├── page_white_php.png
+│   │   │   │   │   │   │   │   ├── page_white_picture.png
+│   │   │   │   │   │   │   │   ├── page_white_powerpoint.png
+│   │   │   │   │   │   │   │   ├── page_white_put.png
+│   │   │   │   │   │   │   │   ├── page_white_ruby.png
+│   │   │   │   │   │   │   │   ├── page_white_stack.png
+│   │   │   │   │   │   │   │   ├── page_white_star.png
+│   │   │   │   │   │   │   │   ├── page_white_swoosh.png
+│   │   │   │   │   │   │   │   ├── page_white_text.png
+│   │   │   │   │   │   │   │   ├── page_white_text_width.png
+│   │   │   │   │   │   │   │   ├── page_white_tux.png
+│   │   │   │   │   │   │   │   ├── page_white_vector.png
+│   │   │   │   │   │   │   │   ├── page_white_visualstudio.png
+│   │   │   │   │   │   │   │   ├── page_white_width.png
+│   │   │   │   │   │   │   │   ├── page_white_word.png
+│   │   │   │   │   │   │   │   ├── page_white_world.png
+│   │   │   │   │   │   │   │   ├── page_white_wrench.png
+│   │   │   │   │   │   │   │   ├── page_white_zip.png
+│   │   │   │   │   │   │   │   ├── page_word.png
+│   │   │   │   │   │   │   │   └── page_world.png
+│   │   │   │   │   │   │   └── style.css
+│   │   │   │   │   │   └── utils.js
+│   │   │   │   │   ├── node_modules
+│   │   │   │   │   │   ├── batch
+│   │   │   │   │   │   │   ├── History.md
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── Readme.md
+│   │   │   │   │   │   │   ├── component.json
+│   │   │   │   │   │   │   ├── index.js
+│   │   │   │   │   │   │   └── package.json
+│   │   │   │   │   │   ├── bytes
+│   │   │   │   │   │   │   ├── History.md
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── Readme.md
+│   │   │   │   │   │   │   ├── component.json
+│   │   │   │   │   │   │   ├── index.js
+│   │   │   │   │   │   │   └── package.json
+│   │   │   │   │   │   ├── multiparty
+│   │   │   │   │   │   │   ├── CHANGELOG.md
+│   │   │   │   │   │   │   ├── LICENSE
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── examples
+│   │   │   │   │   │   │   │   ├── azureblobstorage.js
+│   │   │   │   │   │   │   │   ├── s3.js
+│   │   │   │   │   │   │   │   └── upload.js
+│   │   │   │   │   │   │   ├── index.js
+│   │   │   │   │   │   │   ├── node_modules
+│   │   │   │   │   │   │   │   ├── readable-stream
+│   │   │   │   │   │   │   │   │   ├── LICENSE
+│   │   │   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   │   │   ├── duplex.js
+│   │   │   │   │   │   │   │   │   ├── float.patch
+│   │   │   │   │   │   │   │   │   ├── lib
+│   │   │   │   │   │   │   │   │   │   ├── _stream_duplex.js
+│   │   │   │   │   │   │   │   │   │   ├── _stream_passthrough.js
+│   │   │   │   │   │   │   │   │   │   ├── _stream_readable.js
+│   │   │   │   │   │   │   │   │   │   ├── _stream_transform.js
+│   │   │   │   │   │   │   │   │   │   └── _stream_writable.js
+│   │   │   │   │   │   │   │   │   ├── node_modules
+│   │   │   │   │   │   │   │   │   │   ├── core-util-is
+│   │   │   │   │   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   │   │   │   │   ├── float.patch
+│   │   │   │   │   │   │   │   │   │   │   ├── lib
+│   │   │   │   │   │   │   │   │   │   │   │   └── util.js
+│   │   │   │   │   │   │   │   │   │   │   ├── package.json
+│   │   │   │   │   │   │   │   │   │   │   └── util.js
+│   │   │   │   │   │   │   │   │   │   ├── debuglog
+│   │   │   │   │   │   │   │   │   │   │   ├── LICENSE
+│   │   │   │   │   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   │   │   │   │   ├── debuglog.js
+│   │   │   │   │   │   │   │   │   │   │   └── package.json
+│   │   │   │   │   │   │   │   │   │   └── string_decoder
+│   │   │   │   │   │   │   │   │   │       ├── LICENSE
+│   │   │   │   │   │   │   │   │   │       ├── README.md
+│   │   │   │   │   │   │   │   │   │       ├── index.js
+│   │   │   │   │   │   │   │   │   │       └── package.json
+│   │   │   │   │   │   │   │   │   ├── package.json
+│   │   │   │   │   │   │   │   │   ├── passthrough.js
+│   │   │   │   │   │   │   │   │   ├── readable.js
+│   │   │   │   │   │   │   │   │   ├── transform.js
+│   │   │   │   │   │   │   │   │   └── writable.js
+│   │   │   │   │   │   │   │   └── stream-counter
+│   │   │   │   │   │   │   │       ├── README.md
+│   │   │   │   │   │   │   │       ├── index.js
+│   │   │   │   │   │   │   │       ├── package.json
+│   │   │   │   │   │   │   │       └── test
+│   │   │   │   │   │   │   │           ├── test.js
+│   │   │   │   │   │   │   │           └── test.txt
+│   │   │   │   │   │   │   ├── package.json
+│   │   │   │   │   │   │   └── test
+│   │   │   │   │   │   │       ├── bench-multipart-parser.js
+│   │   │   │   │   │   │       ├── fixture
+│   │   │   │   │   │   │       │   ├── file
+│   │   │   │   │   │   │       │   │   ├── beta-sticker-1.png
+│   │   │   │   │   │   │       │   │   ├── binaryfile.tar.gz
+│   │   │   │   │   │   │       │   │   ├── blank.gif
+│   │   │   │   │   │   │       │   │   ├── funkyfilename.txt
+│   │   │   │   │   │   │       │   │   ├── menu_separator.png
+│   │   │   │   │   │   │       │   │   ├── pf1y5.png
+│   │   │   │   │   │   │       │   │   └── plain.txt
+│   │   │   │   │   │   │       │   ├── http
+│   │   │   │   │   │   │       │   │   ├── encoding
+│   │   │   │   │   │   │       │   │   │   ├── beta-sticker-1.png.http
+│   │   │   │   │   │   │       │   │   │   ├── binaryfile.tar.gz.http
+│   │   │   │   │   │   │       │   │   │   ├── blank.gif.http
+│   │   │   │   │   │   │       │   │   │   ├── menu_seperator.png.http
+│   │   │   │   │   │   │       │   │   │   ├── pf1y5.png.http
+│   │   │   │   │   │   │       │   │   │   └── plain.txt.http
+│   │   │   │   │   │   │       │   │   ├── no-filename
+│   │   │   │   │   │   │       │   │   │   ├── filename-name.http
+│   │   │   │   │   │   │       │   │   │   └── generic.http
+│   │   │   │   │   │   │       │   │   ├── preamble
+│   │   │   │   │   │   │       │   │   │   ├── crlf.http
+│   │   │   │   │   │   │       │   │   │   └── preamble.http
+│   │   │   │   │   │   │       │   │   ├── special-chars-in-filename
+│   │   │   │   │   │   │       │   │   │   ├── info.md
+│   │   │   │   │   │   │       │   │   │   ├── osx-chrome-13.http
+│   │   │   │   │   │   │       │   │   │   ├── osx-firefox-3.6.http
+│   │   │   │   │   │   │       │   │   │   ├── osx-safari-5.http
+│   │   │   │   │   │   │       │   │   │   ├── xp-chrome-12.http
+│   │   │   │   │   │   │       │   │   │   ├── xp-ie-7.http
+│   │   │   │   │   │   │       │   │   │   ├── xp-ie-8.http
+│   │   │   │   │   │   │       │   │   │   └── xp-safari-5.http
+│   │   │   │   │   │   │       │   │   └── workarounds
+│   │   │   │   │   │   │       │   │       ├── missing-hyphens1.http
+│   │   │   │   │   │   │       │   │       └── missing-hyphens2.http
+│   │   │   │   │   │   │       │   ├── js
+│   │   │   │   │   │   │       │   │   ├── encoding.js
+│   │   │   │   │   │   │       │   │   ├── no-filename.js
+│   │   │   │   │   │   │       │   │   ├── preamble.js
+│   │   │   │   │   │   │       │   │   ├── special-chars-in-filename.js
+│   │   │   │   │   │   │       │   │   └── workarounds.js
+│   │   │   │   │   │   │       │   ├── multi_video.upload
+│   │   │   │   │   │   │       │   └── multipart.js
+│   │   │   │   │   │   │       ├── record.js
+│   │   │   │   │   │   │       ├── standalone
+│   │   │   │   │   │   │       │   ├── test-connection-aborted.js
+│   │   │   │   │   │   │       │   ├── test-content-transfer-encoding.js
+│   │   │   │   │   │   │       │   ├── test-invalid.js
+│   │   │   │   │   │   │       │   ├── test-issue-15.js
+│   │   │   │   │   │   │       │   ├── test-issue-19.js
+│   │   │   │   │   │   │       │   ├── test-issue-21.js
+│   │   │   │   │   │   │       │   ├── test-issue-4.js
+│   │   │   │   │   │   │       │   ├── test-issue-46.js
+│   │   │   │   │   │   │       │   └── test-issue-5.js
+│   │   │   │   │   │   │       └── test.js
+│   │   │   │   │   │   ├── negotiator
+│   │   │   │   │   │   │   ├── LICENSE
+│   │   │   │   │   │   │   ├── examples
+│   │   │   │   │   │   │   │   ├── accept.js
+│   │   │   │   │   │   │   │   ├── charset.js
+│   │   │   │   │   │   │   │   ├── encoding.js
+│   │   │   │   │   │   │   │   └── language.js
+│   │   │   │   │   │   │   ├── lib
+│   │   │   │   │   │   │   │   ├── charset.js
+│   │   │   │   │   │   │   │   ├── encoding.js
+│   │   │   │   │   │   │   │   ├── language.js
+│   │   │   │   │   │   │   │   ├── mediaType.js
+│   │   │   │   │   │   │   │   └── negotiator.js
+│   │   │   │   │   │   │   ├── package.json
+│   │   │   │   │   │   │   ├── readme.md
+│   │   │   │   │   │   │   └── test
+│   │   │   │   │   │   │       ├── charset.js
+│   │   │   │   │   │   │       ├── encoding.js
+│   │   │   │   │   │   │       ├── language.js
+│   │   │   │   │   │   │       └── mediaType.js
+│   │   │   │   │   │   ├── pause
+│   │   │   │   │   │   │   ├── History.md
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── Readme.md
+│   │   │   │   │   │   │   ├── index.js
+│   │   │   │   │   │   │   └── package.json
+│   │   │   │   │   │   ├── qs
+│   │   │   │   │   │   │   ├── Readme.md
+│   │   │   │   │   │   │   ├── index.js
+│   │   │   │   │   │   │   └── package.json
+│   │   │   │   │   │   ├── raw-body
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── index.js
+│   │   │   │   │   │   │   └── package.json
+│   │   │   │   │   │   └── uid2
+│   │   │   │   │   │       ├── LICENSE
+│   │   │   │   │   │       ├── index.js
+│   │   │   │   │   │       └── package.json
+│   │   │   │   │   └── package.json
+│   │   │   │   ├── cookie
+│   │   │   │   │   ├── LICENSE
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── package.json
+│   │   │   │   │   └── test
+│   │   │   │   │       ├── mocha.opts
+│   │   │   │   │       ├── parse.js
+│   │   │   │   │       └── serialize.js
+│   │   │   │   ├── cookie-signature
+│   │   │   │   │   ├── History.md
+│   │   │   │   │   ├── Makefile
+│   │   │   │   │   ├── Readme.md
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── package.json
+│   │   │   │   ├── debug
+│   │   │   │   │   ├── Readme.md
+│   │   │   │   │   ├── debug.js
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── lib
+│   │   │   │   │   │   └── debug.js
+│   │   │   │   │   └── package.json
+│   │   │   │   ├── fresh
+│   │   │   │   │   ├── History.md
+│   │   │   │   │   ├── Makefile
+│   │   │   │   │   ├── Readme.md
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── package.json
+│   │   │   │   ├── merge-descriptors
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── component.json
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── package.json
+│   │   │   │   ├── methods
+│   │   │   │   │   ├── History.md
+│   │   │   │   │   ├── Readme.md
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── package.json
+│   │   │   │   ├── mkdirp
+│   │   │   │   │   ├── LICENSE
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   └── pow.js
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── package.json
+│   │   │   │   │   ├── readme.markdown
+│   │   │   │   │   └── test
+│   │   │   │   │       ├── chmod.js
+│   │   │   │   │       ├── clobber.js
+│   │   │   │   │       ├── mkdirp.js
+│   │   │   │   │       ├── perm.js
+│   │   │   │   │       ├── perm_sync.js
+│   │   │   │   │       ├── race.js
+│   │   │   │   │       ├── rel.js
+│   │   │   │   │       ├── return.js
+│   │   │   │   │       ├── return_sync.js
+│   │   │   │   │       ├── root.js
+│   │   │   │   │       ├── sync.js
+│   │   │   │   │       ├── umask.js
+│   │   │   │   │       └── umask_sync.js
+│   │   │   │   ├── range-parser
+│   │   │   │   │   ├── History.md
+│   │   │   │   │   ├── Makefile
+│   │   │   │   │   ├── Readme.md
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── package.json
+│   │   │   │   └── send
+│   │   │   │       ├── History.md
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── Readme.md
+│   │   │   │       ├── index.js
+│   │   │   │       ├── lib
+│   │   │   │       │   ├── send.js
+│   │   │   │       │   └── utils.js
+│   │   │   │       ├── node_modules
+│   │   │   │       │   └── mime
+│   │   │   │       │       ├── LICENSE
+│   │   │   │       │       ├── README.md
+│   │   │   │       │       ├── mime.js
+│   │   │   │       │       ├── package.json
+│   │   │   │       │       ├── test.js
+│   │   │   │       │       └── types
+│   │   │   │       │           ├── mime.types
+│   │   │   │       │           └── node.types
+│   │   │   │       └── package.json
+│   │   │   └── package.json
+│   │   ├── jade
+│   │   │   ├── LICENSE
+│   │   │   ├── README.md
+│   │   │   ├── Readme_zh-cn.md
+│   │   │   ├── bin
+│   │   │   │   └── jade.js
+│   │   │   ├── component.json
+│   │   │   ├── index.js
+│   │   │   ├── jade-language.md
+│   │   │   ├── jade.js
+│   │   │   ├── jade.md
+│   │   │   ├── lib
+│   │   │   │   ├── compiler.js
+│   │   │   │   ├── doctypes.js
+│   │   │   │   ├── filters-client.js
+│   │   │   │   ├── filters.js
+│   │   │   │   ├── inline-tags.js
+│   │   │   │   ├── jade.js
+│   │   │   │   ├── lexer.js
+│   │   │   │   ├── nodes
+│   │   │   │   │   ├── attrs.js
+│   │   │   │   │   ├── block-comment.js
+│   │   │   │   │   ├── block.js
+│   │   │   │   │   ├── case.js
+│   │   │   │   │   ├── code.js
+│   │   │   │   │   ├── comment.js
+│   │   │   │   │   ├── doctype.js
+│   │   │   │   │   ├── each.js
+│   │   │   │   │   ├── filter.js
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── literal.js
+│   │   │   │   │   ├── mixin-block.js
+│   │   │   │   │   ├── mixin.js
+│   │   │   │   │   ├── node.js
+│   │   │   │   │   ├── tag.js
+│   │   │   │   │   └── text.js
+│   │   │   │   ├── parser.js
+│   │   │   │   ├── runtime.js
+│   │   │   │   ├── self-closing.js
+│   │   │   │   └── utils.js
+│   │   │   ├── node_modules
+│   │   │   │   ├── character-parser
+│   │   │   │   │   ├── LICENSE
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── package.json
+│   │   │   │   ├── commander
+│   │   │   │   │   ├── Readme.md
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── package.json
+│   │   │   │   ├── constantinople
+│   │   │   │   │   ├── LICENSE
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── node_modules
+│   │   │   │   │   │   └── uglify-js
+│   │   │   │   │   │       ├── LICENSE
+│   │   │   │   │   │       ├── README.md
+│   │   │   │   │   │       ├── bin
+│   │   │   │   │   │       │   └── uglifyjs
+│   │   │   │   │   │       ├── lib
+│   │   │   │   │   │       │   ├── ast.js
+│   │   │   │   │   │       │   ├── compress.js
+│   │   │   │   │   │       │   ├── mozilla-ast.js
+│   │   │   │   │   │       │   ├── output.js
+│   │   │   │   │   │       │   ├── parse.js
+│   │   │   │   │   │       │   ├── scope.js
+│   │   │   │   │   │       │   ├── sourcemap.js
+│   │   │   │   │   │       │   ├── transform.js
+│   │   │   │   │   │       │   └── utils.js
+│   │   │   │   │   │       ├── node_modules
+│   │   │   │   │   │       │   ├── async
+│   │   │   │   │   │       │   │   ├── LICENSE
+│   │   │   │   │   │       │   │   ├── README.md
+│   │   │   │   │   │       │   │   ├── component.json
+│   │   │   │   │   │       │   │   ├── lib
+│   │   │   │   │   │       │   │   │   └── async.js
+│   │   │   │   │   │       │   │   └── package.json
+│   │   │   │   │   │       │   ├── optimist
+│   │   │   │   │   │       │   │   ├── LICENSE
+│   │   │   │   │   │       │   │   ├── example
+│   │   │   │   │   │       │   │   │   ├── bool.js
+│   │   │   │   │   │       │   │   │   ├── boolean_double.js
+│   │   │   │   │   │       │   │   │   ├── boolean_single.js
+│   │   │   │   │   │       │   │   │   ├── default_hash.js
+│   │   │   │   │   │       │   │   │   ├── default_singles.js
+│   │   │   │   │   │       │   │   │   ├── divide.js
+│   │   │   │   │   │       │   │   │   ├── line_count.js
+│   │   │   │   │   │       │   │   │   ├── line_count_options.js
+│   │   │   │   │   │       │   │   │   ├── line_count_wrap.js
+│   │   │   │   │   │       │   │   │   ├── nonopt.js
+│   │   │   │   │   │       │   │   │   ├── reflect.js
+│   │   │   │   │   │       │   │   │   ├── short.js
+│   │   │   │   │   │       │   │   │   ├── string.js
+│   │   │   │   │   │       │   │   │   ├── usage-options.js
+│   │   │   │   │   │       │   │   │   └── xup.js
+│   │   │   │   │   │       │   │   ├── index.js
+│   │   │   │   │   │       │   │   ├── node_modules
+│   │   │   │   │   │       │   │   │   └── wordwrap
+│   │   │   │   │   │       │   │   │       ├── README.markdown
+│   │   │   │   │   │       │   │   │       ├── example
+│   │   │   │   │   │       │   │   │       │   ├── center.js
+│   │   │   │   │   │       │   │   │       │   └── meat.js
+│   │   │   │   │   │       │   │   │       ├── index.js
+│   │   │   │   │   │       │   │   │       ├── package.json
+│   │   │   │   │   │       │   │   │       └── test
+│   │   │   │   │   │       │   │   │           ├── break.js
+│   │   │   │   │   │       │   │   │           ├── idleness.txt
+│   │   │   │   │   │       │   │   │           └── wrap.js
+│   │   │   │   │   │       │   │   ├── package.json
+│   │   │   │   │   │       │   │   ├── readme.markdown
+│   │   │   │   │   │       │   │   └── test
+│   │   │   │   │   │       │   │       ├── _
+│   │   │   │   │   │       │   │       │   ├── argv.js
+│   │   │   │   │   │       │   │       │   └── bin.js
+│   │   │   │   │   │       │   │       ├── _.js
+│   │   │   │   │   │       │   │       ├── parse.js
+│   │   │   │   │   │       │   │       └── usage.js
+│   │   │   │   │   │       │   ├── source-map
+│   │   │   │   │   │       │   │   ├── CHANGELOG.md
+│   │   │   │   │   │       │   │   ├── LICENSE
+│   │   │   │   │   │       │   │   ├── Makefile.dryice.js
+│   │   │   │   │   │       │   │   ├── README.md
+│   │   │   │   │   │       │   │   ├── build
+│   │   │   │   │   │       │   │   │   ├── assert-shim.js
+│   │   │   │   │   │       │   │   │   ├── mini-require.js
+│   │   │   │   │   │       │   │   │   ├── prefix-source-map.jsm
+│   │   │   │   │   │       │   │   │   ├── prefix-utils.jsm
+│   │   │   │   │   │       │   │   │   ├── suffix-browser.js
+│   │   │   │   │   │       │   │   │   ├── suffix-source-map.jsm
+│   │   │   │   │   │       │   │   │   ├── suffix-utils.jsm
+│   │   │   │   │   │       │   │   │   ├── test-prefix.js
+│   │   │   │   │   │       │   │   │   └── test-suffix.js
+│   │   │   │   │   │       │   │   ├── lib
+│   │   │   │   │   │       │   │   │   ├── source-map
+│   │   │   │   │   │       │   │   │   │   ├── array-set.js
+│   │   │   │   │   │       │   │   │   │   ├── base64-vlq.js
+│   │   │   │   │   │       │   │   │   │   ├── base64.js
+│   │   │   │   │   │       │   │   │   │   ├── binary-search.js
+│   │   │   │   │   │       │   │   │   │   ├── source-map-consumer.js
+│   │   │   │   │   │       │   │   │   │   ├── source-map-generator.js
+│   │   │   │   │   │       │   │   │   │   ├── source-node.js
+│   │   │   │   │   │       │   │   │   │   └── util.js
+│   │   │   │   │   │       │   │   │   └── source-map.js
+│   │   │   │   │   │       │   │   ├── node_modules
+│   │   │   │   │   │       │   │   │   └── amdefine
+│   │   │   │   │   │       │   │   │       ├── LICENSE
+│   │   │   │   │   │       │   │   │       ├── README.md
+│   │   │   │   │   │       │   │   │       ├── amdefine.js
+│   │   │   │   │   │       │   │   │       ├── intercept.js
+│   │   │   │   │   │       │   │   │       └── package.json
+│   │   │   │   │   │       │   │   ├── package.json
+│   │   │   │   │   │       │   │   └── test
+│   │   │   │   │   │       │   │       ├── run-tests.js
+│   │   │   │   │   │       │   │       └── source-map
+│   │   │   │   │   │       │   │           ├── test-api.js
+│   │   │   │   │   │       │   │           ├── test-array-set.js
+│   │   │   │   │   │       │   │           ├── test-base64-vlq.js
+│   │   │   │   │   │       │   │           ├── test-base64.js
+│   │   │   │   │   │       │   │           ├── test-binary-search.js
+│   │   │   │   │   │       │   │           ├── test-dog-fooding.js
+│   │   │   │   │   │       │   │           ├── test-source-map-consumer.js
+│   │   │   │   │   │       │   │           ├── test-source-map-generator.js
+│   │   │   │   │   │       │   │           ├── test-source-node.js
+│   │   │   │   │   │       │   │           └── util.js
+│   │   │   │   │   │       │   └── uglify-to-browserify
+│   │   │   │   │   │       │       ├── LICENSE
+│   │   │   │   │   │       │       ├── README.md
+│   │   │   │   │   │       │       ├── index.js
+│   │   │   │   │   │       │       ├── package.json
+│   │   │   │   │   │       │       └── test
+│   │   │   │   │   │       │           └── index.js
+│   │   │   │   │   │       ├── package.json
+│   │   │   │   │   │       ├── test
+│   │   │   │   │   │       │   ├── compress
+│   │   │   │   │   │       │   │   ├── arrays.js
+│   │   │   │   │   │       │   │   ├── blocks.js
+│   │   │   │   │   │       │   │   ├── concat-strings.js
+│   │   │   │   │   │       │   │   ├── conditionals.js
+│   │   │   │   │   │       │   │   ├── dead-code.js
+│   │   │   │   │   │       │   │   ├── debugger.js
+│   │   │   │   │   │       │   │   ├── drop-unused.js
+│   │   │   │   │   │       │   │   ├── issue-105.js
+│   │   │   │   │   │       │   │   ├── issue-12.js
+│   │   │   │   │   │       │   │   ├── issue-126.js
+│   │   │   │   │   │       │   │   ├── issue-143.js
+│   │   │   │   │   │       │   │   ├── issue-22.js
+│   │   │   │   │   │       │   │   ├── issue-267.js
+│   │   │   │   │   │       │   │   ├── issue-269.js
+│   │   │   │   │   │       │   │   ├── issue-44.js
+│   │   │   │   │   │       │   │   ├── issue-59.js
+│   │   │   │   │   │       │   │   ├── labels.js
+│   │   │   │   │   │       │   │   ├── loops.js
+│   │   │   │   │   │       │   │   ├── negate-iife.js
+│   │   │   │   │   │       │   │   ├── properties.js
+│   │   │   │   │   │       │   │   ├── sequences.js
+│   │   │   │   │   │       │   │   ├── switch.js
+│   │   │   │   │   │       │   │   └── typeof.js
+│   │   │   │   │   │       │   └── run-tests.js
+│   │   │   │   │   │       └── tools
+│   │   │   │   │   │           └── node.js
+│   │   │   │   │   ├── package.json
+│   │   │   │   │   └── test
+│   │   │   │   │       └── index.js
+│   │   │   │   ├── mkdirp
+│   │   │   │   │   ├── LICENSE
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   └── pow.js
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── package.json
+│   │   │   │   │   ├── readme.markdown
+│   │   │   │   │   └── test
+│   │   │   │   │       ├── chmod.js
+│   │   │   │   │       ├── clobber.js
+│   │   │   │   │       ├── mkdirp.js
+│   │   │   │   │       ├── perm.js
+│   │   │   │   │       ├── perm_sync.js
+│   │   │   │   │       ├── race.js
+│   │   │   │   │       ├── rel.js
+│   │   │   │   │       ├── return.js
+│   │   │   │   │       ├── return_sync.js
+│   │   │   │   │       ├── root.js
+│   │   │   │   │       ├── sync.js
+│   │   │   │   │       ├── umask.js
+│   │   │   │   │       └── umask_sync.js
+│   │   │   │   ├── monocle
+│   │   │   │   │   ├── LICENSE
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── monocle.js
+│   │   │   │   │   ├── node_modules
+│   │   │   │   │   │   └── readdirp
+│   │   │   │   │   │       ├── LICENSE
+│   │   │   │   │   │       ├── README.md
+│   │   │   │   │   │       ├── examples
+│   │   │   │   │   │       │   ├── Readme.md
+│   │   │   │   │   │       │   ├── callback-api.js
+│   │   │   │   │   │       │   ├── grep.js
+│   │   │   │   │   │       │   ├── node_modules
+│   │   │   │   │   │       │   │   ├── event-stream
+│   │   │   │   │   │       │   │   │   ├── LICENCE
+│   │   │   │   │   │       │   │   │   ├── examples
+│   │   │   │   │   │       │   │   │   │   └── pretty.js
+│   │   │   │   │   │       │   │   │   ├── index.js
+│   │   │   │   │   │       │   │   │   ├── node_modules
+│   │   │   │   │   │       │   │   │   │   ├── duplexer
+│   │   │   │   │   │       │   │   │   │   │   ├── LICENCE
+│   │   │   │   │   │       │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │       │   │   │   │   │   ├── README.md
+│   │   │   │   │   │       │   │   │   │   │   ├── index.js
+│   │   │   │   │   │       │   │   │   │   │   ├── package.json
+│   │   │   │   │   │       │   │   │   │   │   └── test.js
+│   │   │   │   │   │       │   │   │   │   ├── from
+│   │   │   │   │   │       │   │   │   │   │   ├── LICENSE.APACHE2
+│   │   │   │   │   │       │   │   │   │   │   ├── LICENSE.MIT
+│   │   │   │   │   │       │   │   │   │   │   ├── index.js
+│   │   │   │   │   │       │   │   │   │   │   ├── package.json
+│   │   │   │   │   │       │   │   │   │   │   ├── readme.markdown
+│   │   │   │   │   │       │   │   │   │   │   └── test
+│   │   │   │   │   │       │   │   │   │   │       └── index.js
+│   │   │   │   │   │       │   │   │   │   ├── map-stream
+│   │   │   │   │   │       │   │   │   │   │   ├── LICENCE
+│   │   │   │   │   │       │   │   │   │   │   ├── examples
+│   │   │   │   │   │       │   │   │   │   │   │   └── pretty.js
+│   │   │   │   │   │       │   │   │   │   │   ├── index.js
+│   │   │   │   │   │       │   │   │   │   │   ├── package.json
+│   │   │   │   │   │       │   │   │   │   │   ├── readme.markdown
+│   │   │   │   │   │       │   │   │   │   │   └── test
+│   │   │   │   │   │       │   │   │   │   │       └── simple-map.asynct.js
+│   │   │   │   │   │       │   │   │   │   ├── optimist
+│   │   │   │   │   │       │   │   │   │   │   ├── LICENSE
+│   │   │   │   │   │       │   │   │   │   │   ├── README.markdown
+│   │   │   │   │   │       │   │   │   │   │   ├── examples
+│   │   │   │   │   │       │   │   │   │   │   │   ├── bool.js
+│   │   │   │   │   │       │   │   │   │   │   │   ├── boolean_double.js
+│   │   │   │   │   │       │   │   │   │   │   │   ├── boolean_single.js
+│   │   │   │   │   │       │   │   │   │   │   │   ├── default_hash.js
+│   │   │   │   │   │       │   │   │   │   │   │   ├── default_singles.js
+│   │   │   │   │   │       │   │   │   │   │   │   ├── divide.js
+│   │   │   │   │   │       │   │   │   │   │   │   ├── line_count.js
+│   │   │   │   │   │       │   │   │   │   │   │   ├── line_count_options.js
+│   │   │   │   │   │       │   │   │   │   │   │   ├── line_count_wrap.js
+│   │   │   │   │   │       │   │   │   │   │   │   ├── nonopt.js
+│   │   │   │   │   │       │   │   │   │   │   │   ├── reflect.js
+│   │   │   │   │   │       │   │   │   │   │   │   ├── short.js
+│   │   │   │   │   │       │   │   │   │   │   │   ├── string.js
+│   │   │   │   │   │       │   │   │   │   │   │   ├── usage-options.js
+│   │   │   │   │   │       │   │   │   │   │   │   └── xup.js
+│   │   │   │   │   │       │   │   │   │   │   ├── index.js
+│   │   │   │   │   │       │   │   │   │   │   ├── node_modules
+│   │   │   │   │   │       │   │   │   │   │   │   └── wordwrap
+│   │   │   │   │   │       │   │   │   │   │   │       ├── README.markdown
+│   │   │   │   │   │       │   │   │   │   │   │       ├── example
+│   │   │   │   │   │       │   │   │   │   │   │       │   ├── center.js
+│   │   │   │   │   │       │   │   │   │   │   │       │   └── meat.js
+│   │   │   │   │   │       │   │   │   │   │   │       ├── index.js
+│   │   │   │   │   │       │   │   │   │   │   │       ├── package.json
+│   │   │   │   │   │       │   │   │   │   │   │       └── test
+│   │   │   │   │   │       │   │   │   │   │   │           ├── break.js
+│   │   │   │   │   │       │   │   │   │   │   │           ├── idleness.txt
+│   │   │   │   │   │       │   │   │   │   │   │           └── wrap.js
+│   │   │   │   │   │       │   │   │   │   │   ├── package.json
+│   │   │   │   │   │       │   │   │   │   │   └── test
+│   │   │   │   │   │       │   │   │   │   │       ├── _
+│   │   │   │   │   │       │   │   │   │   │       │   ├── argv.js
+│   │   │   │   │   │       │   │   │   │   │       │   └── bin.js
+│   │   │   │   │   │       │   │   │   │   │       ├── _.js
+│   │   │   │   │   │       │   │   │   │   │       ├── parse.js
+│   │   │   │   │   │       │   │   │   │   │       └── usage.js
+│   │   │   │   │   │       │   │   │   │   ├── pause-stream
+│   │   │   │   │   │       │   │   │   │   │   ├── index.js
+│   │   │   │   │   │       │   │   │   │   │   ├── package.json
+│   │   │   │   │   │       │   │   │   │   │   ├── readme.markdown
+│   │   │   │   │   │       │   │   │   │   │   └── test
+│   │   │   │   │   │       │   │   │   │   │       ├── index.js
+│   │   │   │   │   │       │   │   │   │   │       └── pause-end.js
+│   │   │   │   │   │       │   │   │   │   ├── split
+│   │   │   │   │   │       │   │   │   │   │   ├── LICENCE
+│   │   │   │   │   │       │   │   │   │   │   ├── examples
+│   │   │   │   │   │       │   │   │   │   │   │   └── pretty.js
+│   │   │   │   │   │       │   │   │   │   │   ├── index.js
+│   │   │   │   │   │       │   │   │   │   │   ├── node_modules
+│   │   │   │   │   │       │   │   │   │   │   │   └── through
+│   │   │   │   │   │       │   │   │   │   │   │       ├── LICENSE.APACHE2
+│   │   │   │   │   │       │   │   │   │   │   │       ├── LICENSE.MIT
+│   │   │   │   │   │       │   │   │   │   │   │       ├── index.js
+│   │   │   │   │   │       │   │   │   │   │   │       ├── package.json
+│   │   │   │   │   │       │   │   │   │   │   │       ├── readme.markdown
+│   │   │   │   │   │       │   │   │   │   │   │       └── test
+│   │   │   │   │   │       │   │   │   │   │   │           └── index.js
+│   │   │   │   │   │       │   │   │   │   │   ├── package.json
+│   │   │   │   │   │       │   │   │   │   │   ├── readme.markdown
+│   │   │   │   │   │       │   │   │   │   │   └── test
+│   │   │   │   │   │       │   │   │   │   │       └── split.asynct.js
+│   │   │   │   │   │       │   │   │   │   └── through
+│   │   │   │   │   │       │   │   │   │       ├── LICENSE.APACHE2
+│   │   │   │   │   │       │   │   │   │       ├── LICENSE.MIT
+│   │   │   │   │   │       │   │   │   │       ├── index.js
+│   │   │   │   │   │       │   │   │   │       ├── package.json
+│   │   │   │   │   │       │   │   │   │       ├── readme.markdown
+│   │   │   │   │   │       │   │   │   │       └── test
+│   │   │   │   │   │       │   │   │   │           ├── buffering.js
+│   │   │   │   │   │       │   │   │   │           ├── end.js
+│   │   │   │   │   │       │   │   │   │           └── index.js
+│   │   │   │   │   │       │   │   │   ├── package.json
+│   │   │   │   │   │       │   │   │   ├── readme.markdown
+│   │   │   │   │   │       │   │   │   └── test
+│   │   │   │   │   │       │   │   │       ├── connect.asynct.js
+│   │   │   │   │   │       │   │   │       ├── merge.asynct.js
+│   │   │   │   │   │       │   │   │       ├── pause.asynct.js
+│   │   │   │   │   │       │   │   │       ├── pipeline.asynct.js
+│   │   │   │   │   │       │   │   │       ├── readArray.asynct.js
+│   │   │   │   │   │       │   │   │       ├── readable.asynct.js
+│   │   │   │   │   │       │   │   │       ├── replace.asynct.js
+│   │   │   │   │   │       │   │   │       ├── simple-map.asynct.js
+│   │   │   │   │   │       │   │   │       ├── spec.asynct.js
+│   │   │   │   │   │       │   │   │       ├── split.asynct.js
+│   │   │   │   │   │       │   │   │       ├── stringify.js
+│   │   │   │   │   │       │   │   │       └── writeArray.asynct.js
+│   │   │   │   │   │       │   │   └── tap-stream
+│   │   │   │   │   │       │   │       ├── README.md
+│   │   │   │   │   │       │   │       ├── examples
+│   │   │   │   │   │       │   │       │   └── tap-nested-objects.js
+│   │   │   │   │   │       │   │       ├── index.js
+│   │   │   │   │   │       │   │       ├── node_modules
+│   │   │   │   │   │       │   │       │   └── through
+│   │   │   │   │   │       │   │       │       ├── LICENSE.APACHE2
+│   │   │   │   │   │       │   │       │       ├── LICENSE.MIT
+│   │   │   │   │   │       │   │       │       ├── index.js
+│   │   │   │   │   │       │   │       │       ├── package.json
+│   │   │   │   │   │       │   │       │       ├── readme.markdown
+│   │   │   │   │   │       │   │       │       └── test
+│   │   │   │   │   │       │   │       │           ├── buffering.js
+│   │   │   │   │   │       │   │       │           ├── end.js
+│   │   │   │   │   │       │   │       │           └── index.js
+│   │   │   │   │   │       │   │       ├── package.json
+│   │   │   │   │   │       │   │       └── test
+│   │   │   │   │   │       │   │           └── tap-stream.js
+│   │   │   │   │   │       │   ├── package.json
+│   │   │   │   │   │       │   ├── stream-api-pipe.js
+│   │   │   │   │   │       │   └── stream-api.js
+│   │   │   │   │   │       ├── node_modules
+│   │   │   │   │   │       │   └── minimatch
+│   │   │   │   │   │       │       ├── LICENSE
+│   │   │   │   │   │       │       ├── README.md
+│   │   │   │   │   │       │       ├── minimatch.js
+│   │   │   │   │   │       │       ├── node_modules
+│   │   │   │   │   │       │       │   ├── lru-cache
+│   │   │   │   │   │       │       │   │   ├── CONTRIBUTORS
+│   │   │   │   │   │       │       │   │   ├── LICENSE
+│   │   │   │   │   │       │       │   │   ├── README.md
+│   │   │   │   │   │       │       │   │   ├── lib
+│   │   │   │   │   │       │       │   │   │   └── lru-cache.js
+│   │   │   │   │   │       │       │   │   ├── package.json
+│   │   │   │   │   │       │       │   │   └── test
+│   │   │   │   │   │       │       │   │       ├── basic.js
+│   │   │   │   │   │       │       │   │       ├── foreach.js
+│   │   │   │   │   │       │       │   │       └── memory-leak.js
+│   │   │   │   │   │       │       │   └── sigmund
+│   │   │   │   │   │       │       │       ├── LICENSE
+│   │   │   │   │   │       │       │       ├── README.md
+│   │   │   │   │   │       │       │       ├── bench.js
+│   │   │   │   │   │       │       │       ├── package.json
+│   │   │   │   │   │       │       │       ├── sigmund.js
+│   │   │   │   │   │       │       │       └── test
+│   │   │   │   │   │       │       │           └── basic.js
+│   │   │   │   │   │       │       ├── package.json
+│   │   │   │   │   │       │       └── test
+│   │   │   │   │   │       │           ├── basic.js
+│   │   │   │   │   │       │           ├── brace-expand.js
+│   │   │   │   │   │       │           ├── caching.js
+│   │   │   │   │   │       │           ├── defaults.js
+│   │   │   │   │   │       │           └── extglob-ending-with-state-char.js
+│   │   │   │   │   │       ├── package.json
+│   │   │   │   │   │       ├── readdirp.js
+│   │   │   │   │   │       ├── stream-api.js
+│   │   │   │   │   │       └── test
+│   │   │   │   │   │           ├── bed
+│   │   │   │   │   │           │   ├── root_dir1
+│   │   │   │   │   │           │   │   ├── root_dir1_file1.ext1
+│   │   │   │   │   │           │   │   ├── root_dir1_file2.ext2
+│   │   │   │   │   │           │   │   ├── root_dir1_file3.ext3
+│   │   │   │   │   │           │   │   └── root_dir1_subdir1
+│   │   │   │   │   │           │   │       └── root1_dir1_subdir1_file1.ext1
+│   │   │   │   │   │           │   ├── root_dir2
+│   │   │   │   │   │           │   │   ├── root_dir2_file1.ext1
+│   │   │   │   │   │           │   │   └── root_dir2_file2.ext2
+│   │   │   │   │   │           │   ├── root_file1.ext1
+│   │   │   │   │   │           │   ├── root_file2.ext2
+│   │   │   │   │   │           │   └── root_file3.ext3
+│   │   │   │   │   │           ├── readdirp-stream.js
+│   │   │   │   │   │           └── readdirp.js
+│   │   │   │   │   └── package.json
+│   │   │   │   ├── transformers
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── history.md
+│   │   │   │   │   ├── lib
+│   │   │   │   │   │   ├── shared.js
+│   │   │   │   │   │   └── transformers.js
+│   │   │   │   │   ├── node_modules
+│   │   │   │   │   │   ├── css
+│   │   │   │   │   │   │   ├── History.md
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── Readme.md
+│   │   │   │   │   │   │   ├── benchmark.js
+│   │   │   │   │   │   │   ├── component.json
+│   │   │   │   │   │   │   ├── index.js
+│   │   │   │   │   │   │   ├── node_modules
+│   │   │   │   │   │   │   │   ├── css-parse
+│   │   │   │   │   │   │   │   │   ├── History.md
+│   │   │   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   │   │   ├── Readme.md
+│   │   │   │   │   │   │   │   │   ├── component.json
+│   │   │   │   │   │   │   │   │   ├── index.js
+│   │   │   │   │   │   │   │   │   └── package.json
+│   │   │   │   │   │   │   │   └── css-stringify
+│   │   │   │   │   │   │   │       ├── History.md
+│   │   │   │   │   │   │   │       ├── Makefile
+│   │   │   │   │   │   │   │       ├── Readme.md
+│   │   │   │   │   │   │   │       ├── component.json
+│   │   │   │   │   │   │   │       ├── index.js
+│   │   │   │   │   │   │   │       └── package.json
+│   │   │   │   │   │   │   ├── package.json
+│   │   │   │   │   │   │   └── test.js
+│   │   │   │   │   │   ├── promise
+│   │   │   │   │   │   │   ├── Readme.md
+│   │   │   │   │   │   │   ├── index.js
+│   │   │   │   │   │   │   ├── node_modules
+│   │   │   │   │   │   │   │   └── is-promise
+│   │   │   │   │   │   │   │       ├── index.js
+│   │   │   │   │   │   │   │       ├── package.json
+│   │   │   │   │   │   │   │       └── readme.md
+│   │   │   │   │   │   │   └── package.json
+│   │   │   │   │   │   └── uglify-js
+│   │   │   │   │   │       ├── README.md
+│   │   │   │   │   │       ├── bin
+│   │   │   │   │   │       │   └── uglifyjs
+│   │   │   │   │   │       ├── lib
+│   │   │   │   │   │       │   ├── ast.js
+│   │   │   │   │   │       │   ├── compress.js
+│   │   │   │   │   │       │   ├── mozilla-ast.js
+│   │   │   │   │   │       │   ├── output.js
+│   │   │   │   │   │       │   ├── parse.js
+│   │   │   │   │   │       │   ├── scope.js
+│   │   │   │   │   │       │   ├── sourcemap.js
+│   │   │   │   │   │       │   ├── transform.js
+│   │   │   │   │   │       │   └── utils.js
+│   │   │   │   │   │       ├── node_modules
+│   │   │   │   │   │       │   ├── optimist
+│   │   │   │   │   │       │   │   ├── LICENSE
+│   │   │   │   │   │       │   │   ├── example
+│   │   │   │   │   │       │   │   │   ├── bool.js
+│   │   │   │   │   │       │   │   │   ├── boolean_double.js
+│   │   │   │   │   │       │   │   │   ├── boolean_single.js
+│   │   │   │   │   │       │   │   │   ├── default_hash.js
+│   │   │   │   │   │       │   │   │   ├── default_singles.js
+│   │   │   │   │   │       │   │   │   ├── divide.js
+│   │   │   │   │   │       │   │   │   ├── line_count.js
+│   │   │   │   │   │       │   │   │   ├── line_count_options.js
+│   │   │   │   │   │       │   │   │   ├── line_count_wrap.js
+│   │   │   │   │   │       │   │   │   ├── nonopt.js
+│   │   │   │   │   │       │   │   │   ├── reflect.js
+│   │   │   │   │   │       │   │   │   ├── short.js
+│   │   │   │   │   │       │   │   │   ├── string.js
+│   │   │   │   │   │       │   │   │   ├── usage-options.js
+│   │   │   │   │   │       │   │   │   └── xup.js
+│   │   │   │   │   │       │   │   ├── index.js
+│   │   │   │   │   │       │   │   ├── node_modules
+│   │   │   │   │   │       │   │   │   └── wordwrap
+│   │   │   │   │   │       │   │   │       ├── README.markdown
+│   │   │   │   │   │       │   │   │       ├── example
+│   │   │   │   │   │       │   │   │       │   ├── center.js
+│   │   │   │   │   │       │   │   │       │   └── meat.js
+│   │   │   │   │   │       │   │   │       ├── index.js
+│   │   │   │   │   │       │   │   │       ├── package.json
+│   │   │   │   │   │       │   │   │       └── test
+│   │   │   │   │   │       │   │   │           ├── break.js
+│   │   │   │   │   │       │   │   │           ├── idleness.txt
+│   │   │   │   │   │       │   │   │           └── wrap.js
+│   │   │   │   │   │       │   │   ├── package.json
+│   │   │   │   │   │       │   │   ├── readme.markdown
+│   │   │   │   │   │       │   │   └── test
+│   │   │   │   │   │       │   │       ├── _
+│   │   │   │   │   │       │   │       │   ├── argv.js
+│   │   │   │   │   │       │   │       │   └── bin.js
+│   │   │   │   │   │       │   │       ├── _.js
+│   │   │   │   │   │       │   │       ├── parse.js
+│   │   │   │   │   │       │   │       └── usage.js
+│   │   │   │   │   │       │   └── source-map
+│   │   │   │   │   │       │       ├── CHANGELOG.md
+│   │   │   │   │   │       │       ├── LICENSE
+│   │   │   │   │   │       │       ├── Makefile.dryice.js
+│   │   │   │   │   │       │       ├── README.md
+│   │   │   │   │   │       │       ├── build
+│   │   │   │   │   │       │       │   ├── assert-shim.js
+│   │   │   │   │   │       │       │   ├── mini-require.js
+│   │   │   │   │   │       │       │   ├── prefix-source-map.jsm
+│   │   │   │   │   │       │       │   ├── prefix-utils.jsm
+│   │   │   │   │   │       │       │   ├── suffix-browser.js
+│   │   │   │   │   │       │       │   ├── suffix-source-map.jsm
+│   │   │   │   │   │       │       │   ├── suffix-utils.jsm
+│   │   │   │   │   │       │       │   ├── test-prefix.js
+│   │   │   │   │   │       │       │   └── test-suffix.js
+│   │   │   │   │   │       │       ├── lib
+│   │   │   │   │   │       │       │   ├── source-map
+│   │   │   │   │   │       │       │   │   ├── array-set.js
+│   │   │   │   │   │       │       │   │   ├── base64-vlq.js
+│   │   │   │   │   │       │       │   │   ├── base64.js
+│   │   │   │   │   │       │       │   │   ├── binary-search.js
+│   │   │   │   │   │       │       │   │   ├── source-map-consumer.js
+│   │   │   │   │   │       │       │   │   ├── source-map-generator.js
+│   │   │   │   │   │       │       │   │   ├── source-node.js
+│   │   │   │   │   │       │       │   │   └── util.js
+│   │   │   │   │   │       │       │   └── source-map.js
+│   │   │   │   │   │       │       ├── node_modules
+│   │   │   │   │   │       │       │   └── amdefine
+│   │   │   │   │   │       │       │       ├── LICENSE
+│   │   │   │   │   │       │       │       ├── README.md
+│   │   │   │   │   │       │       │       ├── amdefine.js
+│   │   │   │   │   │       │       │       ├── intercept.js
+│   │   │   │   │   │       │       │       └── package.json
+│   │   │   │   │   │       │       ├── package.json
+│   │   │   │   │   │       │       └── test
+│   │   │   │   │   │       │           ├── run-tests.js
+│   │   │   │   │   │       │           └── source-map
+│   │   │   │   │   │       │               ├── test-api.js
+│   │   │   │   │   │       │               ├── test-array-set.js
+│   │   │   │   │   │       │               ├── test-base64-vlq.js
+│   │   │   │   │   │       │               ├── test-base64.js
+│   │   │   │   │   │       │               ├── test-binary-search.js
+│   │   │   │   │   │       │               ├── test-dog-fooding.js
+│   │   │   │   │   │       │               ├── test-source-map-consumer.js
+│   │   │   │   │   │       │               ├── test-source-map-generator.js
+│   │   │   │   │   │       │               ├── test-source-node.js
+│   │   │   │   │   │       │               └── util.js
+│   │   │   │   │   │       ├── package.json
+│   │   │   │   │   │       ├── test
+│   │   │   │   │   │       │   ├── compress
+│   │   │   │   │   │       │   │   ├── arrays.js
+│   │   │   │   │   │       │   │   ├── blocks.js
+│   │   │   │   │   │       │   │   ├── conditionals.js
+│   │   │   │   │   │       │   │   ├── dead-code.js
+│   │   │   │   │   │       │   │   ├── debugger.js
+│   │   │   │   │   │       │   │   ├── drop-unused.js
+│   │   │   │   │   │       │   │   ├── issue-105.js
+│   │   │   │   │   │       │   │   ├── issue-12.js
+│   │   │   │   │   │       │   │   ├── issue-22.js
+│   │   │   │   │   │       │   │   ├── issue-44.js
+│   │   │   │   │   │       │   │   ├── issue-59.js
+│   │   │   │   │   │       │   │   ├── labels.js
+│   │   │   │   │   │       │   │   ├── loops.js
+│   │   │   │   │   │       │   │   ├── properties.js
+│   │   │   │   │   │       │   │   ├── sequences.js
+│   │   │   │   │   │       │   │   └── switch.js
+│   │   │   │   │   │       │   └── run-tests.js
+│   │   │   │   │   │       └── tools
+│   │   │   │   │   │           └── node.js
+│   │   │   │   │   └── package.json
+│   │   │   │   └── with
+│   │   │   │       ├── LICENSE
+│   │   │   │       ├── README.md
+│   │   │   │       ├── index.js
+│   │   │   │       ├── node_modules
+│   │   │   │       │   └── uglify-js
+│   │   │   │       │       ├── LICENSE
+│   │   │   │       │       ├── README.md
+│   │   │   │       │       ├── bin
+│   │   │   │       │       │   └── uglifyjs
+│   │   │   │       │       ├── lib
+│   │   │   │       │       │   ├── ast.js
+│   │   │   │       │       │   ├── compress.js
+│   │   │   │       │       │   ├── mozilla-ast.js
+│   │   │   │       │       │   ├── output.js
+│   │   │   │       │       │   ├── parse.js
+│   │   │   │       │       │   ├── scope.js
+│   │   │   │       │       │   ├── sourcemap.js
+│   │   │   │       │       │   ├── transform.js
+│   │   │   │       │       │   └── utils.js
+│   │   │   │       │       ├── node_modules
+│   │   │   │       │       │   ├── async
+│   │   │   │       │       │   │   ├── LICENSE
+│   │   │   │       │       │   │   ├── README.md
+│   │   │   │       │       │   │   ├── component.json
+│   │   │   │       │       │   │   ├── lib
+│   │   │   │       │       │   │   │   └── async.js
+│   │   │   │       │       │   │   └── package.json
+│   │   │   │       │       │   ├── optimist
+│   │   │   │       │       │   │   ├── LICENSE
+│   │   │   │       │       │   │   ├── example
+│   │   │   │       │       │   │   │   ├── bool.js
+│   │   │   │       │       │   │   │   ├── boolean_double.js
+│   │   │   │       │       │   │   │   ├── boolean_single.js
+│   │   │   │       │       │   │   │   ├── default_hash.js
+│   │   │   │       │       │   │   │   ├── default_singles.js
+│   │   │   │       │       │   │   │   ├── divide.js
+│   │   │   │       │       │   │   │   ├── line_count.js
+│   │   │   │       │       │   │   │   ├── line_count_options.js
+│   │   │   │       │       │   │   │   ├── line_count_wrap.js
+│   │   │   │       │       │   │   │   ├── nonopt.js
+│   │   │   │       │       │   │   │   ├── reflect.js
+│   │   │   │       │       │   │   │   ├── short.js
+│   │   │   │       │       │   │   │   ├── string.js
+│   │   │   │       │       │   │   │   ├── usage-options.js
+│   │   │   │       │       │   │   │   └── xup.js
+│   │   │   │       │       │   │   ├── index.js
+│   │   │   │       │       │   │   ├── node_modules
+│   │   │   │       │       │   │   │   └── wordwrap
+│   │   │   │       │       │   │   │       ├── README.markdown
+│   │   │   │       │       │   │   │       ├── example
+│   │   │   │       │       │   │   │       │   ├── center.js
+│   │   │   │       │       │   │   │       │   └── meat.js
+│   │   │   │       │       │   │   │       ├── index.js
+│   │   │   │       │       │   │   │       ├── package.json
+│   │   │   │       │       │   │   │       └── test
+│   │   │   │       │       │   │   │           ├── break.js
+│   │   │   │       │       │   │   │           ├── idleness.txt
+│   │   │   │       │       │   │   │           └── wrap.js
+│   │   │   │       │       │   │   ├── package.json
+│   │   │   │       │       │   │   ├── readme.markdown
+│   │   │   │       │       │   │   └── test
+│   │   │   │       │       │   │       ├── _
+│   │   │   │       │       │   │       │   ├── argv.js
+│   │   │   │       │       │   │       │   └── bin.js
+│   │   │   │       │       │   │       ├── _.js
+│   │   │   │       │       │   │       ├── parse.js
+│   │   │   │       │       │   │       └── usage.js
+│   │   │   │       │       │   ├── source-map
+│   │   │   │       │       │   │   ├── CHANGELOG.md
+│   │   │   │       │       │   │   ├── LICENSE
+│   │   │   │       │       │   │   ├── Makefile.dryice.js
+│   │   │   │       │       │   │   ├── README.md
+│   │   │   │       │       │   │   ├── build
+│   │   │   │       │       │   │   │   ├── assert-shim.js
+│   │   │   │       │       │   │   │   ├── mini-require.js
+│   │   │   │       │       │   │   │   ├── prefix-source-map.jsm
+│   │   │   │       │       │   │   │   ├── prefix-utils.jsm
+│   │   │   │       │       │   │   │   ├── suffix-browser.js
+│   │   │   │       │       │   │   │   ├── suffix-source-map.jsm
+│   │   │   │       │       │   │   │   ├── suffix-utils.jsm
+│   │   │   │       │       │   │   │   ├── test-prefix.js
+│   │   │   │       │       │   │   │   └── test-suffix.js
+│   │   │   │       │       │   │   ├── lib
+│   │   │   │       │       │   │   │   ├── source-map
+│   │   │   │       │       │   │   │   │   ├── array-set.js
+│   │   │   │       │       │   │   │   │   ├── base64-vlq.js
+│   │   │   │       │       │   │   │   │   ├── base64.js
+│   │   │   │       │       │   │   │   │   ├── binary-search.js
+│   │   │   │       │       │   │   │   │   ├── source-map-consumer.js
+│   │   │   │       │       │   │   │   │   ├── source-map-generator.js
+│   │   │   │       │       │   │   │   │   ├── source-node.js
+│   │   │   │       │       │   │   │   │   └── util.js
+│   │   │   │       │       │   │   │   └── source-map.js
+│   │   │   │       │       │   │   ├── node_modules
+│   │   │   │       │       │   │   │   └── amdefine
+│   │   │   │       │       │   │   │       ├── LICENSE
+│   │   │   │       │       │   │   │       ├── README.md
+│   │   │   │       │       │   │   │       ├── amdefine.js
+│   │   │   │       │       │   │   │       ├── intercept.js
+│   │   │   │       │       │   │   │       └── package.json
+│   │   │   │       │       │   │   ├── package.json
+│   │   │   │       │       │   │   └── test
+│   │   │   │       │       │   │       ├── run-tests.js
+│   │   │   │       │       │   │       └── source-map
+│   │   │   │       │       │   │           ├── test-api.js
+│   │   │   │       │       │   │           ├── test-array-set.js
+│   │   │   │       │       │   │           ├── test-base64-vlq.js
+│   │   │   │       │       │   │           ├── test-base64.js
+│   │   │   │       │       │   │           ├── test-binary-search.js
+│   │   │   │       │       │   │           ├── test-dog-fooding.js
+│   │   │   │       │       │   │           ├── test-source-map-consumer.js
+│   │   │   │       │       │   │           ├── test-source-map-generator.js
+│   │   │   │       │       │   │           ├── test-source-node.js
+│   │   │   │       │       │   │           └── util.js
+│   │   │   │       │       │   └── uglify-to-browserify
+│   │   │   │       │       │       ├── LICENSE
+│   │   │   │       │       │       ├── README.md
+│   │   │   │       │       │       ├── index.js
+│   │   │   │       │       │       ├── package.json
+│   │   │   │       │       │       └── test
+│   │   │   │       │       │           └── index.js
+│   │   │   │       │       ├── package.json
+│   │   │   │       │       ├── test
+│   │   │   │       │       │   ├── compress
+│   │   │   │       │       │   │   ├── arrays.js
+│   │   │   │       │       │   │   ├── blocks.js
+│   │   │   │       │       │   │   ├── conditionals.js
+│   │   │   │       │       │   │   ├── dead-code.js
+│   │   │   │       │       │   │   ├── debugger.js
+│   │   │   │       │       │   │   ├── drop-unused.js
+│   │   │   │       │       │   │   ├── issue-105.js
+│   │   │   │       │       │   │   ├── issue-12.js
+│   │   │   │       │       │   │   ├── issue-143.js
+│   │   │   │       │       │   │   ├── issue-22.js
+│   │   │   │       │       │   │   ├── issue-44.js
+│   │   │   │       │       │   │   ├── issue-59.js
+│   │   │   │       │       │   │   ├── labels.js
+│   │   │   │       │       │   │   ├── loops.js
+│   │   │   │       │       │   │   ├── negate-iife.js
+│   │   │   │       │       │   │   ├── properties.js
+│   │   │   │       │       │   │   ├── sequences.js
+│   │   │   │       │       │   │   ├── switch.js
+│   │   │   │       │       │   │   └── typeof.js
+│   │   │   │       │       │   └── run-tests.js
+│   │   │   │       │       └── tools
+│   │   │   │       │           └── node.js
+│   │   │   │       ├── package.json
+│   │   │   │       └── vars.js
+│   │   │   ├── package.json
+│   │   │   └── runtime.js
+│   │   ├── mocha
+│   │   │   ├── Readme.md
+│   │   │   ├── bin
+│   │   │   │   ├── _mocha
+│   │   │   │   └── mocha
+│   │   │   ├── images
+│   │   │   │   ├── error.png
+│   │   │   │   └── ok.png
+│   │   │   ├── index.js
+│   │   │   ├── lib
+│   │   │   │   ├── browser
+│   │   │   │   │   ├── debug.js
+│   │   │   │   │   ├── diff.js
+│   │   │   │   │   ├── events.js
+│   │   │   │   │   ├── fs.js
+│   │   │   │   │   ├── path.js
+│   │   │   │   │   ├── progress.js
+│   │   │   │   │   └── tty.js
+│   │   │   │   ├── context.js
+│   │   │   │   ├── hook.js
+│   │   │   │   ├── interfaces
+│   │   │   │   │   ├── bdd.js
+│   │   │   │   │   ├── exports.js
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── qunit.js
+│   │   │   │   │   └── tdd.js
+│   │   │   │   ├── mocha.js
+│   │   │   │   ├── ms.js
+│   │   │   │   ├── reporters
+│   │   │   │   │   ├── base.js
+│   │   │   │   │   ├── doc.js
+│   │   │   │   │   ├── dot.js
+│   │   │   │   │   ├── html-cov.js
+│   │   │   │   │   ├── html.js
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── json-cov.js
+│   │   │   │   │   ├── json-stream.js
+│   │   │   │   │   ├── json.js
+│   │   │   │   │   ├── landing.js
+│   │   │   │   │   ├── list.js
+│   │   │   │   │   ├── markdown.js
+│   │   │   │   │   ├── min.js
+│   │   │   │   │   ├── nyan.js
+│   │   │   │   │   ├── progress.js
+│   │   │   │   │   ├── spec.js
+│   │   │   │   │   ├── tap.js
+│   │   │   │   │   ├── templates
+│   │   │   │   │   │   ├── coverage.jade
+│   │   │   │   │   │   ├── menu.jade
+│   │   │   │   │   │   ├── script.html
+│   │   │   │   │   │   └── style.html
+│   │   │   │   │   └── xunit.js
+│   │   │   │   ├── runnable.js
+│   │   │   │   ├── runner.js
+│   │   │   │   ├── suite.js
+│   │   │   │   ├── template.html
+│   │   │   │   ├── test.js
+│   │   │   │   └── utils.js
+│   │   │   ├── mocha.css
+│   │   │   ├── mocha.js
+│   │   │   ├── node_modules
+│   │   │   │   ├── commander
+│   │   │   │   │   ├── History.md
+│   │   │   │   │   ├── Readme.md
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── package.json
+│   │   │   │   ├── debug
+│   │   │   │   │   ├── Readme.md
+│   │   │   │   │   ├── debug.js
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── lib
+│   │   │   │   │   │   └── debug.js
+│   │   │   │   │   └── package.json
+│   │   │   │   ├── diff
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── diff.js
+│   │   │   │   │   └── package.json
+│   │   │   │   ├── glob
+│   │   │   │   │   ├── LICENSE
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── g.js
+│   │   │   │   │   │   └── usr-local.js
+│   │   │   │   │   ├── glob.js
+│   │   │   │   │   ├── node_modules
+│   │   │   │   │   │   ├── graceful-fs
+│   │   │   │   │   │   │   ├── LICENSE
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── graceful-fs.js
+│   │   │   │   │   │   │   ├── package.json
+│   │   │   │   │   │   │   ├── polyfills.js
+│   │   │   │   │   │   │   └── test
+│   │   │   │   │   │   │       ├── open.js
+│   │   │   │   │   │   │       └── readdir-sort.js
+│   │   │   │   │   │   ├── inherits
+│   │   │   │   │   │   │   ├── LICENSE
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── inherits.js
+│   │   │   │   │   │   │   ├── inherits_browser.js
+│   │   │   │   │   │   │   ├── package.json
+│   │   │   │   │   │   │   └── test.js
+│   │   │   │   │   │   └── minimatch
+│   │   │   │   │   │       ├── LICENSE
+│   │   │   │   │   │       ├── README.md
+│   │   │   │   │   │       ├── minimatch.js
+│   │   │   │   │   │       ├── node_modules
+│   │   │   │   │   │       │   ├── lru-cache
+│   │   │   │   │   │       │   │   ├── CONTRIBUTORS
+│   │   │   │   │   │       │   │   ├── LICENSE
+│   │   │   │   │   │       │   │   ├── README.md
+│   │   │   │   │   │       │   │   ├── lib
+│   │   │   │   │   │       │   │   │   └── lru-cache.js
+│   │   │   │   │   │       │   │   ├── package.json
+│   │   │   │   │   │       │   │   └── test
+│   │   │   │   │   │       │   │       ├── basic.js
+│   │   │   │   │   │       │   │       ├── foreach.js
+│   │   │   │   │   │       │   │       └── memory-leak.js
+│   │   │   │   │   │       │   └── sigmund
+│   │   │   │   │   │       │       ├── LICENSE
+│   │   │   │   │   │       │       ├── README.md
+│   │   │   │   │   │       │       ├── bench.js
+│   │   │   │   │   │       │       ├── package.json
+│   │   │   │   │   │       │       ├── sigmund.js
+│   │   │   │   │   │       │       └── test
+│   │   │   │   │   │       │           └── basic.js
+│   │   │   │   │   │       ├── package.json
+│   │   │   │   │   │       └── test
+│   │   │   │   │   │           ├── basic.js
+│   │   │   │   │   │           ├── brace-expand.js
+│   │   │   │   │   │           ├── caching.js
+│   │   │   │   │   │           ├── defaults.js
+│   │   │   │   │   │           └── extglob-ending-with-state-char.js
+│   │   │   │   │   ├── package.json
+│   │   │   │   │   └── test
+│   │   │   │   │       ├── 00-setup.js
+│   │   │   │   │       ├── bash-comparison.js
+│   │   │   │   │       ├── bash-results.json
+│   │   │   │   │       ├── cwd-test.js
+│   │   │   │   │       ├── globstar-match.js
+│   │   │   │   │       ├── mark.js
+│   │   │   │   │       ├── nocase-nomagic.js
+│   │   │   │   │       ├── pause-resume.js
+│   │   │   │   │       ├── root-nomount.js
+│   │   │   │   │       ├── root.js
+│   │   │   │   │       ├── stat.js
+│   │   │   │   │       └── zz-cleanup.js
+│   │   │   │   ├── growl
+│   │   │   │   │   ├── History.md
+│   │   │   │   │   ├── Readme.md
+│   │   │   │   │   ├── lib
+│   │   │   │   │   │   └── growl.js
+│   │   │   │   │   ├── package.json
+│   │   │   │   │   └── test.js
+│   │   │   │   ├── jade
+│   │   │   │   │   ├── LICENSE
+│   │   │   │   │   ├── bin
+│   │   │   │   │   │   └── jade
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── jade.js
+│   │   │   │   │   ├── jade.md
+│   │   │   │   │   ├── jade.min.js
+│   │   │   │   │   ├── lib
+│   │   │   │   │   │   ├── compiler.js
+│   │   │   │   │   │   ├── doctypes.js
+│   │   │   │   │   │   ├── filters.js
+│   │   │   │   │   │   ├── inline-tags.js
+│   │   │   │   │   │   ├── jade.js
+│   │   │   │   │   │   ├── lexer.js
+│   │   │   │   │   │   ├── nodes
+│   │   │   │   │   │   │   ├── attrs.js
+│   │   │   │   │   │   │   ├── block-comment.js
+│   │   │   │   │   │   │   ├── block.js
+│   │   │   │   │   │   │   ├── case.js
+│   │   │   │   │   │   │   ├── code.js
+│   │   │   │   │   │   │   ├── comment.js
+│   │   │   │   │   │   │   ├── doctype.js
+│   │   │   │   │   │   │   ├── each.js
+│   │   │   │   │   │   │   ├── filter.js
+│   │   │   │   │   │   │   ├── index.js
+│   │   │   │   │   │   │   ├── literal.js
+│   │   │   │   │   │   │   ├── mixin.js
+│   │   │   │   │   │   │   ├── node.js
+│   │   │   │   │   │   │   ├── tag.js
+│   │   │   │   │   │   │   └── text.js
+│   │   │   │   │   │   ├── parser.js
+│   │   │   │   │   │   ├── runtime.js
+│   │   │   │   │   │   ├── self-closing.js
+│   │   │   │   │   │   └── utils.js
+│   │   │   │   │   ├── node_modules
+│   │   │   │   │   │   ├── commander
+│   │   │   │   │   │   │   ├── History.md
+│   │   │   │   │   │   │   ├── Makefile
+│   │   │   │   │   │   │   ├── Readme.md
+│   │   │   │   │   │   │   ├── index.js
+│   │   │   │   │   │   │   ├── lib
+│   │   │   │   │   │   │   │   └── commander.js
+│   │   │   │   │   │   │   └── package.json
+│   │   │   │   │   │   └── mkdirp
+│   │   │   │   │   │       ├── LICENSE
+│   │   │   │   │   │       ├── README.markdown
+│   │   │   │   │   │       ├── examples
+│   │   │   │   │   │       │   ├── pow.js
+│   │   │   │   │   │       │   ├── pow.js.orig
+│   │   │   │   │   │       │   └── pow.js.rej
+│   │   │   │   │   │       ├── index.js
+│   │   │   │   │   │       ├── package.json
+│   │   │   │   │   │       └── test
+│   │   │   │   │   │           ├── chmod.js
+│   │   │   │   │   │           ├── clobber.js
+│   │   │   │   │   │           ├── mkdirp.js
+│   │   │   │   │   │           ├── perm.js
+│   │   │   │   │   │           ├── perm_sync.js
+│   │   │   │   │   │           ├── race.js
+│   │   │   │   │   │           ├── rel.js
+│   │   │   │   │   │           ├── sync.js
+│   │   │   │   │   │           ├── umask.js
+│   │   │   │   │   │           └── umask_sync.js
+│   │   │   │   │   ├── package.json
+│   │   │   │   │   ├── runtime.js
+│   │   │   │   │   ├── runtime.min.js
+│   │   │   │   │   ├── test.jade
+│   │   │   │   │   └── testing
+│   │   │   │   │       ├── head.jade
+│   │   │   │   │       ├── index.jade
+│   │   │   │   │       ├── index.js
+│   │   │   │   │       ├── layout.jade
+│   │   │   │   │       ├── user.jade
+│   │   │   │   │       └── user.js
+│   │   │   │   └── mkdirp
+│   │   │   │       ├── LICENSE
+│   │   │   │       ├── examples
+│   │   │   │       │   └── pow.js
+│   │   │   │       ├── index.js
+│   │   │   │       ├── package.json
+│   │   │   │       ├── readme.markdown
+│   │   │   │       └── test
+│   │   │   │           ├── chmod.js
+│   │   │   │           ├── clobber.js
+│   │   │   │           ├── mkdirp.js
+│   │   │   │           ├── perm.js
+│   │   │   │           ├── perm_sync.js
+│   │   │   │           ├── race.js
+│   │   │   │           ├── rel.js
+│   │   │   │           ├── return.js
+│   │   │   │           ├── return_sync.js
+│   │   │   │           ├── root.js
+│   │   │   │           ├── sync.js
+│   │   │   │           ├── umask.js
+│   │   │   │           └── umask_sync.js
+│   │   │   └── package.json
+│   │   └── q
+│   │       ├── CONTRIBUTING.md
+│   │       ├── LICENSE
+│   │       ├── README.md
+│   │       ├── benchmark
+│   │       │   ├── compare-with-callbacks.js
+│   │       │   └── scenarios.js
+│   │       ├── package.json
+│   │       ├── q.js
+│   │       └── queue.js
+│   ├── package.json
+│   ├── server.js
+│   └── test
+├── recursion
+│   ├── README.md
+│   ├── SpecRunner.html
+│   ├── index.html
+│   ├── lib
+│   │   └── jasmine-1.3.0
+│   │       ├── MIT.LICENSE
+│   │       ├── jasmine-html.js
+│   │       ├── jasmine.css
+│   │       └── jasmine.js
+│   ├── main.js
+│   └── spec.js
+├── simple-sorting
+│   ├── README.md
+│   ├── processtext.txt
+│   └── simple-sorting.js
+├── sumSquareDifference
+│   ├── SpecRunner.html
+│   ├── index.html
+│   ├── lib
+│   │   └── jasmine-1.3.0
+│   │       ├── MIT.LICENSE
+│   │       ├── jasmine-html.js
+│   │       ├── jasmine.css
+│   │       └── jasmine.js
+│   ├── main.js
+│   └── spec.js
+├── test.html
+└── tree.txt
+
+410 directories, 1689 files

@@ -27,5 +27,12 @@ describe("Testing Recursion", function() {
   
   });
 
+  describe('#4 Sum of an array', function() {
+    var array = [1, 2, 3, 4, 5, 6];
+    it('should return 21', function() {
+      var ans = reduce(array);
+      expect(ans).toEqual(21);
+    });
+  });
 });
 
