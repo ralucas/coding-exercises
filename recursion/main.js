@@ -15,7 +15,7 @@ var gcd = function(a, b) {
 // Expected Output : [3, 4, 5, 6, 7, 8]
 var range = function(a, b) {
   if (a === (b-1)) return [];
-  return ((a+1) + range(a+1, b));
+  return [a + 1].concat(range(a+1, b));
 };
 
 // 4. Write a JavaScript program to compute the sum of an array of integers. Go to the editor
@@ -23,12 +23,13 @@ var range = function(a, b) {
 // Expected Output : 21 
 var reduce = function(arr) {
   if (!arr[1]) return arr[0];
-  return reduce(arr[arr.length - 1]);
+  return arr.pop() + reduce(arr);
 };
 
 // 5. Write a JavaScript program to compute the exponent of a number. Go to the editor
 // Note : The exponent of a number says how many times the base number is used as a factor.
 // 82 = 8 x 8 = 64. Here 8 is the base and 2 is the exponent.
+
 
 // 6. Write a JavaScript program to get the first n Fibonacci numbers. Go to the editor
 // Note : The Fibonacci Sequence is the series of numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, . . . Each subsequent number is the sum of the previous two.

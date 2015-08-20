@@ -13,7 +13,7 @@ describe("Testing Recursion", function() {
     var answer = range(2, 9);
   
     it('should be an array', function() {
-      expect(typeof(answer)).toBe('array');
+      expect(typeof(answer)).toBe('object');
     });
   
     it('should have a length of 6', function() {
