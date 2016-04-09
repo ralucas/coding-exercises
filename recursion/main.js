@@ -7,7 +7,7 @@ var factorial = function(num) {
 
 //2. Write a JavaScript program to find the greatest common divisor (gcd) of two positive numbers. Go to the editor
 var gcd = function(a, b) {
-  
+
 };
 
 // 3. Write a JavaScript program to get the integers in range (x, y). Go to the editor
@@ -33,8 +33,16 @@ var reduce = function(arr) {
 
 // 6. Write a JavaScript program to get the first n Fibonacci numbers. Go to the editor
 // Note : The Fibonacci Sequence is the series of numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, . . . Each subsequent number is the sum of the previous two.
+var fibonacci = function(n) {
+  if (n == 0) return 0;
+  if (n == 1) return 1;
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}; 
 
 // 7. Write a JavaScript program to check whether a number is even or not. Go to the editor
+var isEven = function(num) {
+  return num % 2 > 1;
+}
 
 // 8. Write a JavaScript program for binary search. Go to the editor
 // Sample array : [0,1,2,3,4,5,6]

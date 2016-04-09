@@ -34,5 +34,12 @@ describe("Testing Recursion", function() {
       expect(ans).toEqual(21);
     });
   });
+
+  describe('#6 Fibonacci', function() {
+    it('should return the correct number', function() {
+      expect(fibonacci(7)).toEqual(13);
+      expect(fibonacci(8)).toEqual(21);
+    });
+  });
 });
 
